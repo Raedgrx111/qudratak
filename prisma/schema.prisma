@@ -1,0 +1,238 @@
+// قدراتك | Qudratak — Database Schema
+// Prisma + SQLite (portable to PostgreSQL by switching provider — see README)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ============ المستخدمون ============
+model User {
+  id           String    @id @default(cuid())
+  name         String
+  email        String    @unique
+  passwordHash String
+  role         String    @default("STUDENT") // STUDENT | TEACHER | OWNER (مالك المنصة)
+  grade        String?   // المرحلة الدراسية
+  school       String?   // المجمع/المدرسة (مثل: مجمع الأمير محمد بن فهد)
+  sectionNumber String?  // رقم الشعبة لطلاب المجمع (مثل: 101 / 204 / 308)
+  isBanned     Boolean   @default(false) // حظر/تعليق الحساب
+  emailVerified         Boolean   @default(false) // هل أكّد بريده الإلكتروني؟
+  verificationCode      String?   // بصمة SHA-256 لرمز التأكيد (لا نخزن الرمز نفسه)
+  verificationExpires   DateTime? // صلاحية الرمز (10 دقائق)
+  verificationAttempts  Int       @default(0) // عدد المحاولات الخاطئة (حد أقصى 5)
+  verificationLastSent  DateTime? // آخر إرسال رمز (لتبريد إعادة الإرسال 60 ثانية)
+  lastActiveAt DateTime  @default(now()) // آخر نشاط لتتبع الحسابات
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  answers       AnswerRecord[]
+  attempts      ExamAttempt[]
+  comments      Comment[]
+  commentLikes  CommentLike[]
+  favorites     Favorite[]
+  examsCreated  Exam[]
+  imports       ImportLog[]
+  eventsCreated Event[]
+  clipsCreated  Clip[]
+}
+
+// ============ الأسئلة ============
+model Question {
+  id            String   @id @default(cuid())
+  category      String // QUANTITATIVE | VERBAL
+  topic         String // الموضوع التفصيلي
+  difficulty    String // EASY | MEDIUM | HARD
+  text          String
+  choices       String // JSON: [{key:"أ", text:"..."}, ...]
+  correctAnswer String // "أ" | "ب" | "ج" | "د"
+  explanation   String
+  image         String? // رابط صورة اختياري
+  source        String? // مصدر السؤال
+  createdBy     String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  answers       AnswerRecord[]
+  comments      Comment[]
+  favorites     Favorite[]
+  examQuestions ExamQuestion[]
+
+  @@index([category, topic, difficulty])
+  @@index([createdAt])
+}
+
+// ============ الاختبارات ============
+model Exam {
+  id              String   @id @default(cuid())
+  title           String
+  description     String?
+  type            String   @default("MOCK") // MOCK (محاكاة شاملة) | SECTION (قسم) | TOPIC (مهارة) | CUSTOM (مخصص)
+  category        String? // null = مختلط
+  durationMinutes Int      @default(60)
+  isPublic        Boolean  @default(true)
+  createdBy       String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  questions ExamQuestion[]
+  attempts  ExamAttempt[]
+  creator   User?          @relation(fields: [createdBy], references: [id], onDelete: SetNull)
+}
+
+model ExamQuestion {
+  id         String @id @default(cuid())
+  examId     String
+  questionId String
+  order      Int
+
+  exam     Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([examId, questionId])
+  @@index([examId])
+}
+
+// ============ محاولات الاختبارات ============
+model ExamAttempt {
+  id               String    @id @default(cuid())
+  userId           String
+  examId           String
+  answers          String    @default("{}") // JSON: {questionId: selectedKey}
+  score            Float? // النسبة المئوية
+  correctCount     Int?
+  wrongCount       Int?
+  skippedCount     Int?
+  timeSpentSeconds Int?
+  status           String    @default("IN_PROGRESS") // IN_PROGRESS | COMPLETED
+  startedAt        DateTime  @default(now())
+  completedAt      DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exam Exam @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([examId])
+}
+
+// ============ سجل الإجابات (لتتبع التقدم) ============
+model AnswerRecord {
+  id         String   @id @default(cuid())
+  userId     String
+  questionId String
+  selectedKey String
+  isCorrect  Boolean
+  mode       String // PRACTICE | EXAM
+  createdAt  DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([userId, questionId])
+  @@index([userId, createdAt])
+}
+
+// ============ التعليقات والنقاش ============
+model Comment {
+  id         String   @id @default(cuid())
+  questionId String
+  userId     String
+  parentId   String?
+  text       String
+  isPinned   Boolean  @default(false)
+  isDeleted  Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  question Question      @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  user     User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  parent   Comment?      @relation("CommentThread", fields: [parentId], references: [id], onDelete: Cascade)
+  replies  Comment[]     @relation("CommentThread")
+  likes    CommentLike[]
+
+  @@index([questionId])
+}
+
+model CommentLike {
+  id        String   @id @default(cuid())
+  commentId String
+  userId    String
+  createdAt DateTime @default(now())
+
+  comment Comment @relation(fields: [commentId], references: [id], onDelete: Cascade)
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([commentId, userId])
+}
+
+// ============ المفضلة ============
+model Favorite {
+  id         String   @id @default(cuid())
+  userId     String
+  questionId String
+  createdAt  DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+}
+
+// ============ الأحداث والنشاطات ============
+model Event {
+  id        String    @id @default(cuid())
+  title     String
+  body      String
+  type      String    @default("NEWS") // NEWS (إعلان) | EVENT (حدث) | COMPETITION (مسابقة) | TIP (نصيحة)
+  startsAt  DateTime? // موعد الحدث (اختياري)
+  isActive  Boolean   @default(true)
+  createdBy String?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  creator User? @relation(fields: [createdBy], references: [id], onDelete: SetNull)
+}
+
+// ============ المقاطع التعليمية ============
+model Clip {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  url         String // رابط يوتيوب أو ملف فيديو مباشر (mp4) أو اسم الملف الأصلي للمرفوع
+  provider    String   @default("YOUTUBE") // YOUTUBE | FILE
+  videoId     String? // معرف يوتيوب (مستخرج تلقائيًا)
+  storagePath String? // المقاطع المرفوعة من الجهاز: اسم الملف داخل مجلد uploads/clips (يُبث عبر مسار آمن)
+  fileSize    Int? // حجم الملف المرفوع بالبايت
+  mimeType    String? // نوع الملف المرفوع (video/mp4 ...)
+  durationSec Int? // مدة الفيديو بالثواني (تُستخرج تلقائيًا بالرفع)
+  posterPath  String? // صورة مصغرة مولدة تلقائيًا للإطار الأول
+  category    String   @default("GENERAL") // QUANTITATIVE | VERBAL | GENERAL
+  topic       String? // الموضوع التفصيلي (اختياري)
+  views       Int      @default(0)
+  isActive    Boolean  @default(true) // منشور أم مخفي
+  createdBy   String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  creator User? @relation(fields: [createdBy], references: [id], onDelete: SetNull)
+
+  @@index([category, isActive])
+  @@index([createdAt])
+}
+
+// ============ سجل عمليات الاستيراد ============
+model ImportLog {
+  id           String   @id @default(cuid())
+  fileName     String
+  totalCount   Int
+  successCount Int
+  failedCount  Int
+  errors       String? // JSON array
+  createdBy    String?
+  createdAt    DateTime @default(now())
+
+  importer User? @relation(fields: [createdBy], references: [id], onDelete: SetNull)
+}
