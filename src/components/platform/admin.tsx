@@ -12,6 +12,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog'
 import { Skeleton } from '@/components/ui/skeleton'
+import { Switch } from '@/components/ui/switch'
 import { api, CATEGORY_LABEL, DIFFICULTY_LABEL, DIFFICULTY_STYLE, TOPICS, timeAgo, navigate, useSession, ROLE_LABEL, ROLE_STYLE, EVENT_TYPE_LABEL, EVENT_TYPE_STYLE, formatDate } from '@/lib/client'
 import { cn } from '@/lib/utils'
 import { CLIP_CATEGORY_LABEL, detectClipProvider, youtubeThumbUrl, formatBytes, formatDuration } from '@/lib/clips'
@@ -44,6 +45,11 @@ import {
   MailX,
   HardDriveUpload,
   FileVideo,
+  Ticket,
+  Copy,
+  Check,
+  Lock,
+  LockOpen,
 } from 'lucide-react'
 import { toast } from 'sonner'
 
@@ -1164,6 +1170,136 @@ type AccountRow = {
   favoritesCount: number
 }
 
+// ---------- بطاقة بوابة التسجيل: رمز الدعوة + فتح/إغلاق التسجيل (المالك فقط) ----------
+function RegistrationGateCard() {
+  const [state, setState] = useState<{ inviteCode: string; registrationOpen: boolean } | null>(null)
+  const [newCode, setNewCode] = useState('')
+  const [busy, setBusy] = useState(false)
+  const [copied, setCopied] = useState(false)
+
+  const load = useCallback(() => {
+    api<{ inviteCode: string; registrationOpen: boolean }>('/api/admin/settings')
+      .then((d) => {
+        setState(d)
+        setNewCode('')
+      })
+      .catch(() => setState(null))
+  }, [])
+  useEffect(() => {
+    load()
+  }, [load])
+
+  const patch = async (data: Record<string, unknown>, msg: string) => {
+    setBusy(true)
+    try {
+      const d = await api<{ inviteCode: string; registrationOpen: boolean }>('/api/admin/settings', {
+        method: 'PATCH',
+        body: JSON.stringify(data),
+      })
+      setState(d)
+      setNewCode('')
+      toast.success(msg)
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : 'تعذر التنفيذ')
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  const copy = async () => {
+    if (!state) return
+    try {
+      await navigator.clipboard.writeText(state.inviteCode)
+      setCopied(true)
+      toast.success('نُسخ رمز الدعوة — شاركه مع طلابك')
+      setTimeout(() => setCopied(false), 1500)
+    } catch {
+      toast.error('تعذر النسخ — انسخه يدويًا')
+    }
+  }
+
+  if (!state) return null
+
+  return (
+    <Card className="border-primary/30">
+      <CardHeader className="pb-2">
+        <CardTitle className="text-base flex items-center gap-2">
+          <Ticket className="h-4 w-4 text-primary" /> بوابة التسجيل ورمز الدعوة
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="space-y-3">
+        <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border bg-muted/30 p-3">
+          <span
+            className={cn(
+              'inline-flex items-center gap-1.5 text-xs font-bold px-2.5 py-1 rounded-full',
+              state.registrationOpen ? 'bg-emerald-100 text-emerald-700' : 'bg-rose-100 text-rose-700'
+            )}
+          >
+            {state.registrationOpen ? <LockOpen className="h-3 w-3" /> : <Lock className="h-3 w-3" />}
+            {state.registrationOpen ? 'التسجيل الجديد مفتوح' : 'التسجيل الجديد مغلق'}
+          </span>
+          <Switch
+            checked={state.registrationOpen}
+            disabled={busy}
+            onCheckedChange={(v) =>
+              patch(
+                { registrationOpen: v },
+                v ? 'فُتح التسجيل للطلاب الجدد' : 'أُغلق التسجيل — لن يستطيع أحد التسجيل حتى تعيد فتحه'
+              )
+            }
+            aria-label="فتح أو إغلاق التسجيل الجديد"
+          />
+        </div>
+
+        <div className="flex flex-wrap items-end gap-3">
+          <div className="space-y-1">
+            <Label className="text-xs text-muted-foreground">رمز الدعوة الحالي (يطلبه الطالب في أول خطوة)</Label>
+            <div className="flex items-center gap-2">
+              <code
+                className="text-lg font-extrabold tracking-widest bg-background border rounded-lg px-3 py-1.5"
+                dir="ltr"
+              >
+                {state.inviteCode}
+              </code>
+              <Button size="icon" variant="ghost" className="h-9 w-9" onClick={copy} aria-label="نسخ الرمز" title="نسخ الرمز">
+                {copied ? <Check className="h-4 w-4 text-emerald-600" /> : <Copy className="h-4 w-4" />}
+              </Button>
+            </div>
+          </div>
+          <div className="flex items-end gap-2 grow min-w-56">
+            <div className="space-y-1 grow">
+              <Label htmlFor="new-invite" className="text-xs text-muted-foreground">
+                تغيير الرمز
+              </Label>
+              <Input
+                id="new-invite"
+                dir="ltr"
+                value={newCode}
+                onChange={(e) => setNewCode(e.target.value.toUpperCase())}
+                placeholder="رمز جديد مثل: QDR-774210"
+                className="text-left tracking-wider"
+                autoComplete="off"
+              />
+            </div>
+            <Button
+              variant="outline"
+              disabled={busy || !/^[\w-]{4,24}$/.test(newCode.trim())}
+              onClick={() => patch({ inviteCode: newCode.trim() }, 'تغيّر رمز الدعوة — الرمز القديم لن يعمل بعد الآن')}
+            >
+              حفظ الرمز
+            </Button>
+          </div>
+        </div>
+
+        <p className="text-[11px] text-muted-foreground flex items-start gap-1.5">
+          <ShieldCheck className="h-3.5 w-3.5 shrink-0 mt-0.5 text-primary" />
+          الرمز يُتحقق بجهة الخادم فقط ولا يُخزَّن في الواجهة — شاركه مع طلاب شعبتك فقط، وغيّره متى شئت
+        </p>
+      </CardContent>
+    </Card>
+  )
+}
+
 function AccountsTracking() {
   const [rows, setRows] = useState<AccountRow[] | null>(null)
   const [search, setSearch] = useState('')
@@ -1207,6 +1343,7 @@ function AccountsTracking() {
 
   return (
     <div className="space-y-4">
+      <RegistrationGateCard />
       <Card>
         <CardHeader className="pb-2 flex-row flex-wrap items-center justify-between gap-3">
           <CardTitle className="text-base flex items-center gap-2">
@@ -1276,10 +1413,12 @@ function AccountsTracking() {
                           )}
                         </p>
                         <p className="text-xs text-muted-foreground" dir="ltr">{u.email}</p>
-                        {u.school && (
+                        {(u.school || u.sectionNumber) && (
                           <p className="text-[10px] text-muted-foreground">
-                            {u.school === 'مجمع الأمير محمد بن فهد' ? 'مجمع الأمير محمد بن فهد' : u.school}
-                            {u.sectionNumber && <span className="font-bold text-primary"> · شعبة {u.sectionNumber}</span>}
+                            {u.school}
+                            {u.sectionNumber && (
+                              <span className="font-bold text-primary"> · شعبة {u.sectionNumber}</span>
+                            )}
                           </p>
                         )}
                       </TableCell>
@@ -1303,7 +1442,7 @@ function AccountsTracking() {
                           <span className={cn('w-1.5 h-1.5 rounded-full inline-block', u.activeThisWeek ? 'bg-emerald-500' : 'bg-muted-foreground/40')} />
                           {timeAgo(u.lastActiveAt)}
                         </span>
-                        <span className="text-[10px] text-muted-foreground block">انضم {timeAgo(u.createdAt)}</span>
+                        <span className="text-[10px] text-muted-foreground block">تسجيل {formatDate(u.createdAt)}</span>
                       </TableCell>
                       <TableCell className="text-left">
                         <div className="flex items-center gap-1 justify-end">
@@ -2016,19 +2155,23 @@ function UploadClipDialog({ open, onClose, onSaved }: { open: boolean; onClose: 
   const [dragOver, setDragOver] = useState(false)
   const [inputKey, setInputKey] = useState(0)
 
-  useEffect(() => {
-    if (open) {
-      setFile(null)
-      setTitle('')
-      setDescription('')
-      setCategory('GENERAL')
-      setTopic('none')
-      setProgress(0)
-      setUploading(false)
-      setDragOver(false)
-      setInputKey((k) => k + 1)
-    }
-  }, [open])
+  const reset = () => {
+    setFile(null)
+    setTitle('')
+    setDescription('')
+    setCategory('GENERAL')
+    setTopic('none')
+    setProgress(0)
+    setUploading(false)
+    setDragOver(false)
+    setInputKey((k) => k + 1)
+  }
+
+  // كل مسارات الإغلاق تمر من هنا حتى يبدأ النموذج نظيفًا في المرة التالية
+  const handleClose = () => {
+    reset()
+    onClose()
+  }
 
   const pickFile = (f: File | null) => {
     if (!f) return
@@ -2069,6 +2212,7 @@ function UploadClipDialog({ open, onClose, onSaved }: { open: boolean; onClose: 
       }
       if (xhr.status === 201) {
         toast.success('رُفع المقطع ونُشر للطلاب بنجاح')
+        reset()
         onSaved()
       } else {
         toast.error(msg)
@@ -2084,7 +2228,7 @@ function UploadClipDialog({ open, onClose, onSaved }: { open: boolean; onClose: 
   const valid = !!file && title.trim().length >= 3
 
   return (
-    <Dialog open={open} onOpenChange={(o) => !o && !uploading && onClose()}>
+    <Dialog open={open} onOpenChange={(o) => !o && !uploading && handleClose()}>
       <DialogContent className="max-w-lg max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
@@ -2205,7 +2349,7 @@ function UploadClipDialog({ open, onClose, onSaved }: { open: boolean; onClose: 
           )}
 
           <div className="flex gap-2.5 justify-end">
-            <Button variant="outline" onClick={onClose} disabled={uploading}>
+            <Button variant="outline" onClick={handleClose} disabled={uploading}>
               {uploading ? 'الرفع جارٍ…' : 'إلغاء'}
             </Button>
             <Button onClick={startUpload} disabled={!valid || uploading} className="gap-1.5">

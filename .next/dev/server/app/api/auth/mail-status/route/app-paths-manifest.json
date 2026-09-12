@@ -1,0 +1,3 @@
+{
+  "/api/auth/mail-status/route": "app/api/auth/mail-status/route.js"
+}

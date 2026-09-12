@@ -19,6 +19,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$t
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/table.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/dialog.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$skeleton$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/skeleton.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$switch$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/switch.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/client.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$clips$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/clips.ts [app-ssr] (ecmascript)");
@@ -50,8 +51,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2d$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MailX$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mail-x.js [app-ssr] (ecmascript) <export default as MailX>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$hard$2d$drive$2d$upload$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HardDriveUpload$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/hard-drive-upload.js [app-ssr] (ecmascript) <export default as HardDriveUpload>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2d$video$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FileVideo$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/file-video.js [app-ssr] (ecmascript) <export default as FileVideo>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ticket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Ticket$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/ticket.js [app-ssr] (ecmascript) <export default as Ticket>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$copy$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Copy$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/copy.js [app-ssr] (ecmascript) <export default as Copy>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/check.js [app-ssr] (ecmascript) <export default as Check>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Lock$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/lock.js [app-ssr] (ecmascript) <export default as Lock>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lock$2d$open$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LockOpen$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/lock-open.js [app-ssr] (ecmascript) <export default as LockOpen>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/sonner/dist/index.mjs [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -90,19 +97,19 @@ function AdminView({ tab }) {
                                         className: "h-5 w-5 text-amber-950"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 62,
+                                        lineNumber: 68,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 67,
                                     columnNumber: 15
                                 }, this),
                                 "لوحة المالك"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 60,
+                            lineNumber: 66,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "text-2xl font-extrabold flex items-center gap-2",
@@ -111,14 +118,14 @@ function AdminView({ tab }) {
                                     className: "h-6 w-6 text-primary"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 74,
                                     columnNumber: 15
                                 }, this),
                                 " لوحة المعلم"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 67,
+                            lineNumber: 73,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -126,18 +133,18 @@ function AdminView({ tab }) {
                             children: isOwner ? 'أنت صاحب المنصة — تحكم كامل في الحسابات والأسئلة والاختبارات والأحداث والإشراف على كل شيء.' : 'إدارة بنك الأسئلة والطلاب والاختبارات والإشراف على النقاشات.'
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 71,
+                            lineNumber: 77,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 58,
+                    lineNumber: 64,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 57,
+                lineNumber: 63,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tabs"], {
@@ -155,14 +162,14 @@ function AdminView({ tab }) {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 88,
                                         columnNumber: 13
                                     }, this),
                                     " نظرة عامة"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 81,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -173,14 +180,14 @@ function AdminView({ tab }) {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 91,
                                         columnNumber: 13
                                     }, this),
                                     " الأسئلة"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 84,
+                                lineNumber: 90,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -191,14 +198,14 @@ function AdminView({ tab }) {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 94,
                                         columnNumber: 13
                                     }, this),
                                     " استيراد ملفات"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 87,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             isOwner ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -209,14 +216,14 @@ function AdminView({ tab }) {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 98,
                                         columnNumber: 15
                                     }, this),
                                     " تتبع الحسابات"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 91,
+                                lineNumber: 97,
                                 columnNumber: 13
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                 value: "students",
@@ -226,14 +233,14 @@ function AdminView({ tab }) {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 102,
                                         columnNumber: 15
                                     }, this),
                                     " الطلاب"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 95,
+                                lineNumber: 101,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -244,14 +251,14 @@ function AdminView({ tab }) {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 100,
+                                        lineNumber: 106,
                                         columnNumber: 13
                                     }, this),
                                     " الاختبارات"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 99,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -262,14 +269,14 @@ function AdminView({ tab }) {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 109,
                                         columnNumber: 13
                                     }, this),
                                     " الأحداث"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 102,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -280,14 +287,14 @@ function AdminView({ tab }) {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 106,
+                                        lineNumber: 112,
                                         columnNumber: 13
                                     }, this),
                                     " المقاطع"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 105,
+                                lineNumber: 111,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -298,20 +305,20 @@ function AdminView({ tab }) {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 109,
+                                        lineNumber: 115,
                                         columnNumber: 13
                                     }, this),
                                     " الإشراف"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 108,
+                                lineNumber: 114,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 80,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -321,32 +328,6 @@ function AdminView({ tab }) {
                             isOwner: isOwner
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 114,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 113,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
-                        value: "questions",
-                        className: "mt-5",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(QuestionsManager, {}, void 0, false, {
-                            fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 117,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 116,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
-                        value: "import",
-                        className: "mt-5",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ImportPanel, {}, void 0, false, {
-                            fileName: "[project]/src/components/platform/admin.tsx",
                             lineNumber: 120,
                             columnNumber: 11
                         }, this)
@@ -355,61 +336,61 @@ function AdminView({ tab }) {
                         lineNumber: 119,
                         columnNumber: 9
                     }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
+                        value: "questions",
+                        className: "mt-5",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(QuestionsManager, {}, void 0, false, {
+                            fileName: "[project]/src/components/platform/admin.tsx",
+                            lineNumber: 123,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/platform/admin.tsx",
+                        lineNumber: 122,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
+                        value: "import",
+                        className: "mt-5",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ImportPanel, {}, void 0, false, {
+                            fileName: "[project]/src/components/platform/admin.tsx",
+                            lineNumber: 126,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/platform/admin.tsx",
+                        lineNumber: 125,
+                        columnNumber: 9
+                    }, this),
                     isOwner ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
                         value: "accounts",
                         className: "mt-5",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AccountsTracking, {}, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 124,
+                            lineNumber: 130,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 123,
+                        lineNumber: 129,
                         columnNumber: 11
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
                         value: "students",
                         className: "mt-5",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StudentsPanel, {}, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 128,
+                            lineNumber: 134,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 127,
+                        lineNumber: 133,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
                         value: "exams",
                         className: "mt-5",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ExamsManager, {}, void 0, false, {
-                            fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 132,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 131,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
-                        value: "events",
-                        className: "mt-5",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(EventsManager, {}, void 0, false, {
-                            fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 135,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 134,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
-                        value: "clips",
-                        className: "mt-5",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ClipsManager, {}, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
                             lineNumber: 138,
                             columnNumber: 11
@@ -420,9 +401,9 @@ function AdminView({ tab }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
-                        value: "comments",
+                        value: "events",
                         className: "mt-5",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CommentsModeration, {}, void 0, false, {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(EventsManager, {}, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
                             lineNumber: 141,
                             columnNumber: 11
@@ -431,17 +412,43 @@ function AdminView({ tab }) {
                         fileName: "[project]/src/components/platform/admin.tsx",
                         lineNumber: 140,
                         columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
+                        value: "clips",
+                        className: "mt-5",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ClipsManager, {}, void 0, false, {
+                            fileName: "[project]/src/components/platform/admin.tsx",
+                            lineNumber: 144,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/platform/admin.tsx",
+                        lineNumber: 143,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
+                        value: "comments",
+                        className: "mt-5",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CommentsModeration, {}, void 0, false, {
+                            fileName: "[project]/src/components/platform/admin.tsx",
+                            lineNumber: 147,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/platform/admin.tsx",
+                        lineNumber: 146,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 79,
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 56,
+        lineNumber: 62,
         columnNumber: 5
     }, this);
 }
@@ -454,7 +461,7 @@ function Overview({ isOwner }) {
         className: "h-96 rounded-2xl"
     }, void 0, false, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 169,
+        lineNumber: 175,
         columnNumber: 21
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -508,7 +515,7 @@ function Overview({ isOwner }) {
                                     className: "h-5 w-5 text-primary mb-2.5"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 189,
+                                    lineNumber: 195,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -516,7 +523,7 @@ function Overview({ isOwner }) {
                                     children: s.value
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 190,
+                                    lineNumber: 196,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -524,23 +531,23 @@ function Overview({ isOwner }) {
                                     children: s.label
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 191,
+                                    lineNumber: 197,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 188,
+                            lineNumber: 194,
                             columnNumber: 13
                         }, this)
                     }, s.label, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 187,
+                        lineNumber: 193,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 173,
+                lineNumber: 179,
                 columnNumber: 7
             }, this),
             isOwner && data.answeredTotal !== undefined && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -557,7 +564,7 @@ function Overview({ isOwner }) {
                                         className: "h-5 w-5 text-amber-500"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 202,
+                                        lineNumber: 208,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -565,13 +572,13 @@ function Overview({ isOwner }) {
                                         children: "نبض المنصة:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 203,
+                                        lineNumber: 209,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 201,
+                                lineNumber: 207,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -581,7 +588,7 @@ function Overview({ isOwner }) {
                                         children: data.answeredTotal.toLocaleString('ar-SA')
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 206,
+                                        lineNumber: 212,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -589,13 +596,13 @@ function Overview({ isOwner }) {
                                         children: "إجابة مسجلة إجمالًا"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 207,
+                                        lineNumber: 213,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 205,
+                                lineNumber: 211,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -608,7 +615,7 @@ function Overview({ isOwner }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 210,
+                                        lineNumber: 216,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -616,13 +623,13 @@ function Overview({ isOwner }) {
                                         children: "متوسط دقة الطلاب"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 213,
+                                        lineNumber: 219,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 209,
+                                lineNumber: 215,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -632,7 +639,7 @@ function Overview({ isOwner }) {
                                         children: data.staff?.teachers ?? 0
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 216,
+                                        lineNumber: 222,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -640,29 +647,29 @@ function Overview({ isOwner }) {
                                         children: "معلم في الفريق"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 217,
+                                        lineNumber: 223,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 215,
+                                lineNumber: 221,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 200,
+                        lineNumber: 206,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 199,
+                    lineNumber: 205,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 198,
+                lineNumber: 204,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -677,12 +684,12 @@ function Overview({ isOwner }) {
                                     children: "توزيع البنك حسب القسم"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 227,
+                                    lineNumber: 233,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 226,
+                                lineNumber: 232,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -698,7 +705,7 @@ function Overview({ isOwner }) {
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CATEGORY_LABEL"][c.category]
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 233,
+                                                            lineNumber: 239,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -709,13 +716,13 @@ function Overview({ isOwner }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 234,
+                                                            lineNumber: 240,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 232,
+                                                    lineNumber: 238,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -727,18 +734,18 @@ function Overview({ isOwner }) {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 237,
+                                                        lineNumber: 243,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 236,
+                                                    lineNumber: 242,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, c.category, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 231,
+                                            lineNumber: 237,
                                             columnNumber: 15
                                         }, this)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -752,24 +759,24 @@ function Overview({ isOwner }) {
                                                 ]
                                             }, d.difficulty, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 246,
+                                                lineNumber: 252,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 244,
+                                        lineNumber: 250,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 229,
+                                lineNumber: 235,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 225,
+                        lineNumber: 231,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -781,12 +788,12 @@ function Overview({ isOwner }) {
                                     children: "أبرز الطلاب (بمتوسط الدرجات)"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 256,
+                                    lineNumber: 262,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 255,
+                                lineNumber: 261,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -801,7 +808,7 @@ function Overview({ isOwner }) {
                                                         children: i + 1
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 262,
+                                                        lineNumber: 268,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -809,7 +816,7 @@ function Overview({ isOwner }) {
                                                         children: s.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 265,
+                                                        lineNumber: 271,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -820,7 +827,7 @@ function Overview({ isOwner }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 266,
+                                                        lineNumber: 272,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -831,13 +838,13 @@ function Overview({ isOwner }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 267,
+                                                        lineNumber: 273,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, s.id, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 261,
+                                                lineNumber: 267,
                                                 columnNumber: 17
                                             }, this)),
                                         data.topStudents.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -845,30 +852,30 @@ function Overview({ isOwner }) {
                                             children: "لا توجد بيانات كافية بعد."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 270,
+                                            lineNumber: 276,
                                             columnNumber: 49
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 259,
+                                    lineNumber: 265,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 258,
+                                lineNumber: 264,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 254,
+                        lineNumber: 260,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 224,
+                lineNumber: 230,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -880,12 +887,12 @@ function Overview({ isOwner }) {
                             children: "دقة الطلاب حسب الموضوع"
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 278,
+                            lineNumber: 284,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 277,
+                        lineNumber: 283,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -899,7 +906,7 @@ function Overview({ isOwner }) {
                                             children: t.topic
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 284,
+                                            lineNumber: 290,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -910,7 +917,7 @@ function Overview({ isOwner }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 285,
+                                            lineNumber: 291,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -922,12 +929,12 @@ function Overview({ isOwner }) {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 287,
+                                                lineNumber: 293,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 286,
+                                            lineNumber: 292,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -938,35 +945,35 @@ function Overview({ isOwner }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 292,
+                                            lineNumber: 298,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, t.topic, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 283,
+                                    lineNumber: 289,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 281,
+                            lineNumber: 287,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 280,
+                        lineNumber: 286,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 276,
+                lineNumber: 282,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 172,
+        lineNumber: 178,
         columnNumber: 5
     }, this);
 }
@@ -1046,7 +1053,7 @@ function QuestionsManager() {
                                     className: "absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 371,
+                                    lineNumber: 377,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -1062,13 +1069,13 @@ function QuestionsManager() {
                                     className: "pr-9"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 372,
+                                    lineNumber: 378,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 370,
+                            lineNumber: 376,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -1085,12 +1092,12 @@ function QuestionsManager() {
                                         placeholder: "القسم"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 387,
+                                        lineNumber: 393,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 386,
+                                    lineNumber: 392,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -1100,7 +1107,7 @@ function QuestionsManager() {
                                             children: "كل الأقسام"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 390,
+                                            lineNumber: 396,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1108,7 +1115,7 @@ function QuestionsManager() {
                                             children: "كمي"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 391,
+                                            lineNumber: 397,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1116,19 +1123,19 @@ function QuestionsManager() {
                                             children: "لفظي"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 392,
+                                            lineNumber: 398,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 389,
+                                    lineNumber: 395,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 385,
+                            lineNumber: 391,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -1145,12 +1152,12 @@ function QuestionsManager() {
                                         placeholder: "الصعوبة"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 397,
+                                        lineNumber: 403,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 396,
+                                    lineNumber: 402,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -1160,7 +1167,7 @@ function QuestionsManager() {
                                             children: "كل المستويات"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 400,
+                                            lineNumber: 406,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1168,7 +1175,7 @@ function QuestionsManager() {
                                             children: "سهل"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 401,
+                                            lineNumber: 407,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1176,7 +1183,7 @@ function QuestionsManager() {
                                             children: "متوسط"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 402,
+                                            lineNumber: 408,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1184,19 +1191,19 @@ function QuestionsManager() {
                                             children: "صعب"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 403,
+                                            lineNumber: 409,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 399,
+                                    lineNumber: 405,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 395,
+                            lineNumber: 401,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1207,25 +1214,25 @@ function QuestionsManager() {
                                     className: "h-4 w-4"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 407,
+                                    lineNumber: 413,
                                     columnNumber: 13
                                 }, this),
                                 " سؤال جديد"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 406,
+                            lineNumber: 412,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 369,
+                    lineNumber: 375,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 368,
+                lineNumber: 374,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1236,7 +1243,7 @@ function QuestionsManager() {
                         children: total
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 413,
+                        lineNumber: 419,
                         columnNumber: 9
                     }, this),
                     " سؤال — صفحة ",
@@ -1246,7 +1253,7 @@ function QuestionsManager() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 412,
+                lineNumber: 418,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -1260,12 +1267,12 @@ function QuestionsManager() {
                                 className: "h-12 w-full"
                             }, i, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 422,
+                                lineNumber: 428,
                                 columnNumber: 17
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 420,
+                        lineNumber: 426,
                         columnNumber: 13
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "overflow-x-auto",
@@ -1279,28 +1286,28 @@ function QuestionsManager() {
                                                 children: "السؤال"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 430,
+                                                lineNumber: 436,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                                 children: "القسم"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 431,
+                                                lineNumber: 437,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                                 children: "الموضوع"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 432,
+                                                lineNumber: 438,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                                 children: "الصعوبة"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 433,
+                                                lineNumber: 439,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
@@ -1308,18 +1315,18 @@ function QuestionsManager() {
                                                 children: "إجراءات"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 434,
+                                                lineNumber: 440,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 429,
+                                        lineNumber: 435,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 428,
+                                    lineNumber: 434,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableBody"], {
@@ -1334,7 +1341,7 @@ function QuestionsManager() {
                                                                 children: q.text.replace(/\n/g, ' ')
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                lineNumber: 441,
+                                                                lineNumber: 447,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1347,13 +1354,13 @@ function QuestionsManager() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                lineNumber: 442,
+                                                                lineNumber: 448,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 440,
+                                                        lineNumber: 446,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1362,12 +1369,12 @@ function QuestionsManager() {
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CATEGORY_LABEL"][q.category]
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 445,
+                                                            lineNumber: 451,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 444,
+                                                        lineNumber: 450,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1375,7 +1382,7 @@ function QuestionsManager() {
                                                         children: q.topic
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 447,
+                                                        lineNumber: 453,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1384,12 +1391,12 @@ function QuestionsManager() {
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DIFFICULTY_LABEL"][q.difficulty]
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 449,
+                                                            lineNumber: 455,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 448,
+                                                        lineNumber: 454,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -1406,12 +1413,12 @@ function QuestionsManager() {
                                                                         className: "h-3.5 w-3.5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                                        lineNumber: 454,
+                                                                        lineNumber: 460,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                    lineNumber: 453,
+                                                                    lineNumber: 459,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1424,29 +1431,29 @@ function QuestionsManager() {
                                                                         className: "h-3.5 w-3.5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                                        lineNumber: 457,
+                                                                        lineNumber: 463,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                    lineNumber: 456,
+                                                                    lineNumber: 462,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 452,
+                                                            lineNumber: 458,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 451,
+                                                        lineNumber: 457,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, q.id, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 439,
+                                                lineNumber: 445,
                                                 columnNumber: 21
                                             }, this)),
                                         rows.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableRow"], {
@@ -1456,39 +1463,39 @@ function QuestionsManager() {
                                                 children: "لا توجد أسئلة مطابقة"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 465,
+                                                lineNumber: 471,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 464,
+                                            lineNumber: 470,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 437,
+                                    lineNumber: 443,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 427,
+                            lineNumber: 433,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 426,
+                        lineNumber: 432,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 418,
+                    lineNumber: 424,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 417,
+                lineNumber: 423,
                 columnNumber: 7
             }, this),
             totalPages > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1502,7 +1509,7 @@ function QuestionsManager() {
                         children: "السابق"
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 480,
+                        lineNumber: 486,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1514,7 +1521,7 @@ function QuestionsManager() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 483,
+                        lineNumber: 489,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1525,13 +1532,13 @@ function QuestionsManager() {
                         children: "التالي"
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 486,
+                        lineNumber: 492,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 479,
+                lineNumber: 485,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(QuestionFormDialog, {
@@ -1548,13 +1555,13 @@ function QuestionsManager() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 493,
+                lineNumber: 499,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 366,
+        lineNumber: 372,
         columnNumber: 5
     }, this);
 }
@@ -1657,12 +1664,12 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                         children: isEdit ? 'تعديل السؤال' : 'إضافة سؤال جديد'
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 580,
+                        lineNumber: 586,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 579,
+                    lineNumber: 585,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1678,7 +1685,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                             children: "القسم"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 585,
+                                            lineNumber: 591,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -1694,12 +1701,12 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                         placeholder: "اختر"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 588,
+                                                        lineNumber: 594,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 587,
+                                                    lineNumber: 593,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -1709,7 +1716,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                             children: "كمي"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 591,
+                                                            lineNumber: 597,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1717,25 +1724,25 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                             children: "لفظي"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 592,
+                                                            lineNumber: 598,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 590,
+                                                    lineNumber: 596,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 586,
+                                            lineNumber: 592,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 584,
+                                    lineNumber: 590,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1745,7 +1752,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                             children: "الموضوع"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 597,
+                                            lineNumber: 603,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -1759,12 +1766,12 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                         placeholder: "اختر"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 600,
+                                                        lineNumber: 606,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 599,
+                                                    lineNumber: 605,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -1773,24 +1780,24 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                             children: t
                                                         }, t, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 604,
+                                                            lineNumber: 610,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 602,
+                                                    lineNumber: 608,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 598,
+                                            lineNumber: 604,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 596,
+                                    lineNumber: 602,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1800,7 +1807,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                             children: "الصعوبة"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 612,
+                                            lineNumber: 618,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -1813,12 +1820,12 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                         placeholder: "اختر"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 615,
+                                                        lineNumber: 621,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 614,
+                                                    lineNumber: 620,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -1828,7 +1835,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                             children: "سهل"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 618,
+                                                            lineNumber: 624,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1836,7 +1843,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                             children: "متوسط"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 619,
+                                                            lineNumber: 625,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1844,31 +1851,31 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                             children: "صعب"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 620,
+                                                            lineNumber: 626,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 617,
+                                                    lineNumber: 623,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 613,
+                                            lineNumber: 619,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 611,
+                                    lineNumber: 617,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 583,
+                            lineNumber: 589,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1878,7 +1885,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                     children: "نص السؤال"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 627,
+                                    lineNumber: 633,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -1888,13 +1895,13 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                     placeholder: "اكتب نص السؤال..."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 628,
+                                    lineNumber: 634,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 626,
+                            lineNumber: 632,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1904,7 +1911,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                     children: "الخيارات (حدد زر الراديو للإجابة الصحيحة)"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 632,
+                                    lineNumber: 638,
                                     columnNumber: 13
                                 }, this),
                                 choices.map((c, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1918,7 +1925,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                 children: c.key
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 635,
+                                                lineNumber: 641,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -1930,19 +1937,19 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                                 placeholder: `نص الخيار ${c.key}`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 646,
+                                                lineNumber: 652,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, c.key, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 634,
+                                        lineNumber: 640,
                                         columnNumber: 15
                                     }, this))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 631,
+                            lineNumber: 637,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1952,7 +1959,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                     children: "شرح الحل"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 656,
+                                    lineNumber: 662,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -1962,13 +1969,13 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                     placeholder: "اشرح خطوات الحل..."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 657,
+                                    lineNumber: 663,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 655,
+                            lineNumber: 661,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1980,7 +1987,7 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                     children: "إلغاء"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 661,
+                                    lineNumber: 667,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1992,37 +1999,37 @@ function QuestionFormDialog({ open, question, onClose, onSaved }) {
                                             className: "h-4 w-4 animate-spin"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 665,
+                                            lineNumber: 671,
                                             columnNumber: 26
                                         }, this),
                                         isEdit ? 'حفظ التعديل' : 'إضافة السؤال'
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 664,
+                                    lineNumber: 670,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 660,
+                            lineNumber: 666,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 582,
+                    lineNumber: 588,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/platform/admin.tsx",
-            lineNumber: 578,
+            lineNumber: 584,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 577,
+        lineNumber: 583,
         columnNumber: 5
     }, this);
 }
@@ -2075,19 +2082,19 @@ function ImportPanel() {
                                     className: "h-4 w-4 text-primary"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 713,
+                                    lineNumber: 719,
                                     columnNumber: 13
                                 }, this),
                                 " استيراد أسئلة من Excel / CSV"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 712,
+                            lineNumber: 718,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 711,
+                        lineNumber: 717,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -2101,7 +2108,7 @@ function ImportPanel() {
                                         children: "القسم"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 718,
+                                        lineNumber: 724,
                                         columnNumber: 48
                                     }, this),
                                     " (كمي/لفظي)، ",
@@ -2109,7 +2116,7 @@ function ImportPanel() {
                                         children: "الموضوع"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 718,
+                                        lineNumber: 724,
                                         columnNumber: 73
                                     }, this),
                                     "، ",
@@ -2117,7 +2124,7 @@ function ImportPanel() {
                                         children: "الصعوبة"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 718,
+                                        lineNumber: 724,
                                         columnNumber: 89
                                     }, this),
                                     " (سهل/متوسط/صعب)،",
@@ -2125,7 +2132,7 @@ function ImportPanel() {
                                         children: " السؤال"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 719,
+                                        lineNumber: 725,
                                         columnNumber: 13
                                     }, this),
                                     "، ",
@@ -2133,7 +2140,7 @@ function ImportPanel() {
                                         children: "الخيار أ/ب/ج/د"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 719,
+                                        lineNumber: 725,
                                         columnNumber: 29
                                     }, this),
                                     "، ",
@@ -2141,7 +2148,7 @@ function ImportPanel() {
                                         children: "الإجابة"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 719,
+                                        lineNumber: 725,
                                         columnNumber: 52
                                     }, this),
                                     " (أ/ب/ج/د)، ",
@@ -2149,14 +2156,14 @@ function ImportPanel() {
                                         children: "الشرح"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 719,
+                                        lineNumber: 725,
                                         columnNumber: 78
                                     }, this),
                                     ". سيتم التحقق من كل صف وإدراج الأسئلة الصالحة تلقائيًا — مهما كان عددُها."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 717,
+                                lineNumber: 723,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2173,19 +2180,19 @@ function ImportPanel() {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 725,
+                                                    lineNumber: 731,
                                                     columnNumber: 17
                                                 }, this),
                                                 " تنزيل قالب جاهز"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 724,
+                                            lineNumber: 730,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 723,
+                                        lineNumber: 729,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2199,7 +2206,7 @@ function ImportPanel() {
                                                 id: "import-file"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 729,
+                                                lineNumber: 735,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2213,37 +2220,37 @@ function ImportPanel() {
                                                             className: "h-4 w-4 animate-spin"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 732,
+                                                            lineNumber: 738,
                                                             columnNumber: 32
                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$upload$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Upload$3e$__["Upload"], {
                                                             className: "h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 732,
+                                                            lineNumber: 738,
                                                             columnNumber: 79
                                                         }, this),
                                                         uploading ? 'جارٍ الاستيراد...' : 'اختر ملفًا واستورد'
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 731,
+                                                    lineNumber: 737,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 730,
+                                                lineNumber: 736,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 728,
+                                        lineNumber: 734,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 722,
+                                lineNumber: 728,
                                 columnNumber: 11
                             }, this),
                             result && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2261,7 +2268,7 @@ function ImportPanel() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 742,
+                                                lineNumber: 748,
                                                 columnNumber: 36
                                             }, this),
                                             result.failedCount > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2273,7 +2280,7 @@ function ImportPanel() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 743,
+                                                lineNumber: 749,
                                                 columnNumber: 44
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2285,13 +2292,13 @@ function ImportPanel() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 744,
+                                                lineNumber: 750,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 741,
+                                        lineNumber: 747,
                                         columnNumber: 15
                                     }, this),
                                     result.errors?.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2303,30 +2310,30 @@ function ImportPanel() {
                                                 ]
                                             }, i, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 749,
+                                                lineNumber: 755,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 747,
+                                        lineNumber: 753,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 740,
+                                lineNumber: 746,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 716,
+                        lineNumber: 722,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 710,
+                lineNumber: 716,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -2338,12 +2345,12 @@ function ImportPanel() {
                             children: "سجل عمليات الاستيراد"
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 760,
+                            lineNumber: 766,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 759,
+                        lineNumber: 765,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -2352,7 +2359,7 @@ function ImportPanel() {
                             children: "لا توجد عمليات استيراد سابقة."
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 764,
+                            lineNumber: 770,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "space-y-2",
@@ -2364,7 +2371,7 @@ function ImportPanel() {
                                             children: l.fileName
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 769,
+                                            lineNumber: 775,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2380,35 +2387,35 @@ function ImportPanel() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 770,
+                                            lineNumber: 776,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, l.id, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 768,
+                                    lineNumber: 774,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 766,
+                            lineNumber: 772,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 762,
+                        lineNumber: 768,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 758,
+                lineNumber: 764,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 709,
+        lineNumber: 715,
         columnNumber: 5
     }, this);
 }
@@ -2430,7 +2437,7 @@ function StudentsPanel() {
                         children: "الطلاب المسجلون"
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 811,
+                        lineNumber: 817,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2440,7 +2447,7 @@ function StudentsPanel() {
                                 className: "absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 813,
+                                lineNumber: 819,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -2450,19 +2457,19 @@ function StudentsPanel() {
                                 className: "pr-9"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 814,
+                                lineNumber: 820,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 812,
+                        lineNumber: 818,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 810,
+                lineNumber: 816,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -2475,12 +2482,12 @@ function StudentsPanel() {
                             className: "h-12 w-full"
                         }, i, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 821,
+                            lineNumber: 827,
                             columnNumber: 15
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 819,
+                    lineNumber: 825,
                     columnNumber: 11
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "overflow-x-auto",
@@ -2493,60 +2500,60 @@ function StudentsPanel() {
                                             children: "الطالب"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 829,
+                                            lineNumber: 835,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                             children: "المرحلة"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 830,
+                                            lineNumber: 836,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                             children: "المجمع / الشعبة"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 831,
+                                            lineNumber: 837,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                             children: "أسئلة محلولة"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 832,
+                                            lineNumber: 838,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                             children: "اختبارات"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 833,
+                                            lineNumber: 839,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                             children: "متوسط الدرجات"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 834,
+                                            lineNumber: 840,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                             children: "تعليقات"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 835,
+                                            lineNumber: 841,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 828,
+                                    lineNumber: 834,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 827,
+                                lineNumber: 833,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableBody"], {
@@ -2560,7 +2567,7 @@ function StudentsPanel() {
                                                             children: s.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 842,
+                                                            lineNumber: 848,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2569,13 +2576,13 @@ function StudentsPanel() {
                                                             children: s.email
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 843,
+                                                            lineNumber: 849,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 841,
+                                                    lineNumber: 847,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -2583,7 +2590,7 @@ function StudentsPanel() {
                                                     children: s.grade || '—'
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 847,
+                                                    lineNumber: 853,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -2600,25 +2607,25 @@ function StudentsPanel() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                lineNumber: 852,
+                                                                lineNumber: 858,
                                                                 columnNumber: 47
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 850,
+                                                        lineNumber: 856,
                                                         columnNumber: 25
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-muted-foreground",
                                                         children: "—"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 855,
+                                                        lineNumber: 861,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 848,
+                                                    lineNumber: 854,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -2626,7 +2633,7 @@ function StudentsPanel() {
                                                     children: s.answeredCount
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 858,
+                                                    lineNumber: 864,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -2634,7 +2641,7 @@ function StudentsPanel() {
                                                     children: s.examsCount
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 859,
+                                                    lineNumber: 865,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -2642,7 +2649,7 @@ function StudentsPanel() {
                                                     children: s.avgScore !== null ? `${s.avgScore}%` : '—'
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 860,
+                                                    lineNumber: 866,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -2650,13 +2657,13 @@ function StudentsPanel() {
                                                     children: s.commentsCount
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 861,
+                                                    lineNumber: 867,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, s.id, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 840,
+                                            lineNumber: 846,
                                             columnNumber: 19
                                         }, this)),
                                     rows.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableRow"], {
@@ -2666,40 +2673,40 @@ function StudentsPanel() {
                                             children: "لا يوجد طلاب مطابقون"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 866,
+                                            lineNumber: 872,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 865,
+                                        lineNumber: 871,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 838,
+                                lineNumber: 844,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 826,
+                        lineNumber: 832,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 825,
+                    lineNumber: 831,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 817,
+                lineNumber: 823,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 809,
+        lineNumber: 815,
         columnNumber: 5
     }, this);
 }
@@ -2737,26 +2744,26 @@ function ExamsManager() {
                             className: "h-4 w-4"
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 918,
+                            lineNumber: 924,
                             columnNumber: 11
                         }, this),
                         " إنشاء اختبار"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 917,
+                    lineNumber: 923,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 916,
+                lineNumber: 922,
                 columnNumber: 7
             }, this),
             rows === null ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$skeleton$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Skeleton"], {
                 className: "h-64 rounded-2xl"
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 923,
+                lineNumber: 929,
                 columnNumber: 9
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "grid md:grid-cols-2 gap-4",
@@ -2774,7 +2781,7 @@ function ExamsManager() {
                                                 children: e.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 931,
+                                                lineNumber: 937,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2782,7 +2789,7 @@ function ExamsManager() {
                                                 children: e.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 932,
+                                                lineNumber: 938,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2796,7 +2803,7 @@ function ExamsManager() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 934,
+                                                        lineNumber: 940,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -2807,7 +2814,7 @@ function ExamsManager() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 935,
+                                                        lineNumber: 941,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -2818,19 +2825,19 @@ function ExamsManager() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 936,
+                                                        lineNumber: 942,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 933,
+                                                lineNumber: 939,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 930,
+                                        lineNumber: 936,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2843,33 +2850,33 @@ function ExamsManager() {
                                             className: "h-4 w-4"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 940,
+                                            lineNumber: 946,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 939,
+                                        lineNumber: 945,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 929,
+                                lineNumber: 935,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 928,
+                            lineNumber: 934,
                             columnNumber: 15
                         }, this)
                     }, e.id, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 927,
+                        lineNumber: 933,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 925,
+                lineNumber: 931,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CreateExamDialog, {
@@ -2881,13 +2888,13 @@ function ExamsManager() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 949,
+                lineNumber: 955,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 915,
+        lineNumber: 921,
         columnNumber: 5
     }, this);
 }
@@ -2935,12 +2942,12 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                         children: "إنشاء اختبار جديد (توليد تلقائي)"
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 991,
+                        lineNumber: 997,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 990,
+                    lineNumber: 996,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2953,7 +2960,7 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                     children: "عنوان الاختبار"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 995,
+                                    lineNumber: 1001,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -2962,13 +2969,13 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                     placeholder: "مثال: اختبار تجريبي — النسبة المئوية"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 996,
+                                    lineNumber: 1002,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 994,
+                            lineNumber: 1000,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2978,7 +2985,7 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                     children: "الوصف (اختياري)"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 999,
+                                    lineNumber: 1005,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -2987,13 +2994,13 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                     rows: 2
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1000,
+                                    lineNumber: 1006,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 998,
+                            lineNumber: 1004,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3006,7 +3013,7 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                             children: "عدد الأسئلة"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1004,
+                                            lineNumber: 1010,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -3017,13 +3024,13 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                             onChange: (e)=>setCount(Number(e.target.value))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1005,
+                                            lineNumber: 1011,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1003,
+                                    lineNumber: 1009,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3033,7 +3040,7 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                             children: "المدة (دقيقة)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1008,
+                                            lineNumber: 1014,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -3044,19 +3051,19 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                             onChange: (e)=>setDuration(Number(e.target.value))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1009,
+                                            lineNumber: 1015,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1007,
+                                    lineNumber: 1013,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1002,
+                            lineNumber: 1008,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3069,7 +3076,7 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                             children: "القسم"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1014,
+                                            lineNumber: 1020,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -3085,12 +3092,12 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                                         placeholder: "مختلط"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1017,
+                                                        lineNumber: 1023,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1016,
+                                                    lineNumber: 1022,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -3100,7 +3107,7 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                                             children: "كمي + لفظي"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1020,
+                                                            lineNumber: 1026,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -3108,7 +3115,7 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                                             children: "كمي فقط"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1021,
+                                                            lineNumber: 1027,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -3116,25 +3123,25 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                                             children: "لفظي فقط"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1022,
+                                                            lineNumber: 1028,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1019,
+                                                    lineNumber: 1025,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1015,
+                                            lineNumber: 1021,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1013,
+                                    lineNumber: 1019,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3144,7 +3151,7 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                             children: "الموضوع (اختياري)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1027,
+                                            lineNumber: 1033,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -3158,12 +3165,12 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                                         placeholder: category ? 'كل المواضيع' : 'اختر قسمًا أولًا'
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1030,
+                                                        lineNumber: 1036,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1029,
+                                                    lineNumber: 1035,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -3173,7 +3180,7 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                                             children: "كل المواضيع"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1033,
+                                                            lineNumber: 1039,
                                                             columnNumber: 19
                                                         }, this),
                                                         (category ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TOPICS"][category] : []).map((t)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -3181,31 +3188,31 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                                                 children: t
                                                             }, t, false, {
                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                lineNumber: 1035,
+                                                                lineNumber: 1041,
                                                                 columnNumber: 21
                                                             }, this))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1032,
+                                                    lineNumber: 1038,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1028,
+                                            lineNumber: 1034,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1026,
+                                    lineNumber: 1032,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1012,
+                            lineNumber: 1018,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3217,7 +3224,7 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                     children: "إلغاء"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1044,
+                                    lineNumber: 1050,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -3229,37 +3236,37 @@ function CreateExamDialog({ open, onClose, onCreated }) {
                                             className: "h-4 w-4 animate-spin"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1048,
+                                            lineNumber: 1054,
                                             columnNumber: 24
                                         }, this),
                                         "إنشاء ونشر"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1047,
+                                    lineNumber: 1053,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1043,
+                            lineNumber: 1049,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 993,
+                    lineNumber: 999,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/platform/admin.tsx",
-            lineNumber: 989,
+            lineNumber: 995,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 988,
+        lineNumber: 994,
         columnNumber: 5
     }, this);
 }
@@ -3301,12 +3308,12 @@ function CommentsModeration() {
                     children: "أحدث التعليقات — إشراف المعلم"
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1096,
+                    lineNumber: 1102,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1095,
+                lineNumber: 1101,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -3319,19 +3326,19 @@ function CommentsModeration() {
                             className: "h-20 w-full"
                         }, i, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1102,
+                            lineNumber: 1108,
                             columnNumber: 15
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1100,
+                    lineNumber: 1106,
                     columnNumber: 11
                 }, this) : rows.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-sm text-muted-foreground text-center py-10",
                     children: "لا توجد تعليقات بعد."
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1106,
+                    lineNumber: 1112,
                     columnNumber: 11
                 }, this) : rows.map((c)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "rounded-xl border p-4 space-y-2",
@@ -3347,7 +3354,7 @@ function CommentsModeration() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1111,
+                                        lineNumber: 1117,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3355,7 +3362,7 @@ function CommentsModeration() {
                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["timeAgo"])(c.createdAt)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1114,
+                                        lineNumber: 1120,
                                         columnNumber: 17
                                     }, this),
                                     c.isPinned && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -3366,21 +3373,21 @@ function CommentsModeration() {
                                                 className: "h-3 w-3 ml-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1117,
+                                                lineNumber: 1123,
                                                 columnNumber: 21
                                             }, this),
                                             " مثبّت"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1116,
+                                        lineNumber: 1122,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "flex-1"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1120,
+                                        lineNumber: 1126,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -3393,7 +3400,7 @@ function CommentsModeration() {
                                                 className: "h-3 w-3"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1122,
+                                                lineNumber: 1128,
                                                 columnNumber: 19
                                             }, this),
                                             " ",
@@ -3401,7 +3408,7 @@ function CommentsModeration() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1121,
+                                        lineNumber: 1127,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -3414,20 +3421,20 @@ function CommentsModeration() {
                                                 className: "h-3 w-3"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1125,
+                                                lineNumber: 1131,
                                                 columnNumber: 19
                                             }, this),
                                             " حذف"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1124,
+                                        lineNumber: 1130,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1110,
+                                lineNumber: 1116,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3435,7 +3442,7 @@ function CommentsModeration() {
                                 children: c.text
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1128,
+                                lineNumber: 1134,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3448,24 +3455,294 @@ function CommentsModeration() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1129,
+                                lineNumber: 1135,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, c.id, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1109,
+                        lineNumber: 1115,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1098,
+                lineNumber: 1104,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 1094,
+        lineNumber: 1100,
+        columnNumber: 5
+    }, this);
+}
+// ---------- بطاقة بوابة التسجيل: رمز الدعوة + فتح/إغلاق التسجيل (المالك فقط) ----------
+function RegistrationGateCard() {
+    const [state, setState] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [newCode, setNewCode] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
+    const [busy, setBusy] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [copied, setCopied] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const load = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(()=>{
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["api"])('/api/admin/settings').then((d)=>{
+            setState(d);
+            setNewCode('');
+        }).catch(()=>setState(null));
+    }, []);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        load();
+    }, [
+        load
+    ]);
+    const patch = async (data, msg)=>{
+        setBusy(true);
+        try {
+            const d = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["api"])('/api/admin/settings', {
+                method: 'PATCH',
+                body: JSON.stringify(data)
+            });
+            setState(d);
+            setNewCode('');
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].success(msg);
+        } catch (e) {
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error(e instanceof Error ? e.message : 'تعذر التنفيذ');
+        } finally{
+            setBusy(false);
+        }
+    };
+    const copy = async ()=>{
+        if (!state) return;
+        try {
+            await navigator.clipboard.writeText(state.inviteCode);
+            setCopied(true);
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].success('نُسخ رمز الدعوة — شاركه مع طلابك');
+            setTimeout(()=>setCopied(false), 1500);
+        } catch  {
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error('تعذر النسخ — انسخه يدويًا');
+        }
+    };
+    if (!state) return null;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
+        className: "border-primary/30",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardHeader"], {
+                className: "pb-2",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardTitle"], {
+                    className: "text-base flex items-center gap-2",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ticket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Ticket$3e$__["Ticket"], {
+                            className: "h-4 w-4 text-primary"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/platform/admin.tsx",
+                            lineNumber: 1227,
+                            columnNumber: 11
+                        }, this),
+                        " بوابة التسجيل ورمز الدعوة"
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/platform/admin.tsx",
+                    lineNumber: 1226,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/components/platform/admin.tsx",
+                lineNumber: 1225,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
+                className: "space-y-3",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-wrap items-center justify-between gap-3 rounded-xl border bg-muted/30 p-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('inline-flex items-center gap-1.5 text-xs font-bold px-2.5 py-1 rounded-full', state.registrationOpen ? 'bg-emerald-100 text-emerald-700' : 'bg-rose-100 text-rose-700'),
+                                children: [
+                                    state.registrationOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lock$2d$open$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LockOpen$3e$__["LockOpen"], {
+                                        className: "h-3 w-3"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/platform/admin.tsx",
+                                        lineNumber: 1238,
+                                        columnNumber: 39
+                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Lock$3e$__["Lock"], {
+                                        className: "h-3 w-3"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/platform/admin.tsx",
+                                        lineNumber: 1238,
+                                        columnNumber: 74
+                                    }, this),
+                                    state.registrationOpen ? 'التسجيل الجديد مفتوح' : 'التسجيل الجديد مغلق'
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/platform/admin.tsx",
+                                lineNumber: 1232,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$switch$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Switch"], {
+                                checked: state.registrationOpen,
+                                disabled: busy,
+                                onCheckedChange: (v)=>patch({
+                                        registrationOpen: v
+                                    }, v ? 'فُتح التسجيل للطلاب الجدد' : 'أُغلق التسجيل — لن يستطيع أحد التسجيل حتى تعيد فتحه'),
+                                "aria-label": "فتح أو إغلاق التسجيل الجديد"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/platform/admin.tsx",
+                                lineNumber: 1241,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/platform/admin.tsx",
+                        lineNumber: 1231,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-wrap items-end gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "space-y-1",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
+                                        className: "text-xs text-muted-foreground",
+                                        children: "رمز الدعوة الحالي (يطلبه الطالب في أول خطوة)"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/platform/admin.tsx",
+                                        lineNumber: 1256,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center gap-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
+                                                className: "text-lg font-extrabold tracking-widest bg-background border rounded-lg px-3 py-1.5",
+                                                dir: "ltr",
+                                                children: state.inviteCode
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/admin.tsx",
+                                                lineNumber: 1258,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                                size: "icon",
+                                                variant: "ghost",
+                                                className: "h-9 w-9",
+                                                onClick: copy,
+                                                "aria-label": "نسخ الرمز",
+                                                title: "نسخ الرمز",
+                                                children: copied ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                    className: "h-4 w-4 text-emerald-600"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/platform/admin.tsx",
+                                                    lineNumber: 1265,
+                                                    columnNumber: 27
+                                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$copy$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Copy$3e$__["Copy"], {
+                                                    className: "h-4 w-4"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/platform/admin.tsx",
+                                                    lineNumber: 1265,
+                                                    columnNumber: 76
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/admin.tsx",
+                                                lineNumber: 1264,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/platform/admin.tsx",
+                                        lineNumber: 1257,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/platform/admin.tsx",
+                                lineNumber: 1255,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex items-end gap-2 grow min-w-56",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "space-y-1 grow",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
+                                                htmlFor: "new-invite",
+                                                className: "text-xs text-muted-foreground",
+                                                children: "تغيير الرمز"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/admin.tsx",
+                                                lineNumber: 1271,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
+                                                id: "new-invite",
+                                                dir: "ltr",
+                                                value: newCode,
+                                                onChange: (e)=>setNewCode(e.target.value.toUpperCase()),
+                                                placeholder: "رمز جديد مثل: QDR-774210",
+                                                className: "text-left tracking-wider",
+                                                autoComplete: "off"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/admin.tsx",
+                                                lineNumber: 1274,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/platform/admin.tsx",
+                                        lineNumber: 1270,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                        variant: "outline",
+                                        disabled: busy || !/^[\w-]{4,24}$/.test(newCode.trim()),
+                                        onClick: ()=>patch({
+                                                inviteCode: newCode.trim()
+                                            }, 'تغيّر رمز الدعوة — الرمز القديم لن يعمل بعد الآن'),
+                                        children: "حفظ الرمز"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/platform/admin.tsx",
+                                        lineNumber: 1284,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/platform/admin.tsx",
+                                lineNumber: 1269,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/platform/admin.tsx",
+                        lineNumber: 1254,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-[11px] text-muted-foreground flex items-start gap-1.5",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
+                                className: "h-3.5 w-3.5 shrink-0 mt-0.5 text-primary"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/platform/admin.tsx",
+                                lineNumber: 1295,
+                                columnNumber: 11
+                            }, this),
+                            "الرمز يُتحقق بجهة الخادم فقط ولا يُخزَّن في الواجهة — شاركه مع طلاب شعبتك فقط، وغيّره متى شئت"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/platform/admin.tsx",
+                        lineNumber: 1294,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/platform/admin.tsx",
+                lineNumber: 1230,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/platform/admin.tsx",
+        lineNumber: 1224,
         columnNumber: 5
     }, this);
 }
@@ -3517,6 +3794,11 @@ function AccountsTracking() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "space-y-4",
         children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(RegistrationGateCard, {}, void 0, false, {
+                fileName: "[project]/src/components/platform/admin.tsx",
+                lineNumber: 1346,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardHeader"], {
@@ -3529,7 +3811,7 @@ function AccountsTracking() {
                                         className: "h-4 w-4 text-primary"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1213,
+                                        lineNumber: 1350,
                                         columnNumber: 13
                                     }, this),
                                     " تتبع جميع الحسابات",
@@ -3542,13 +3824,13 @@ function AccountsTracking() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1214,
+                                        lineNumber: 1351,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1212,
+                                lineNumber: 1349,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3563,12 +3845,12 @@ function AccountsTracking() {
                                                 className: "w-32 h-9 text-xs",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectValue"], {}, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1221,
+                                                    lineNumber: 1358,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1220,
+                                                lineNumber: 1357,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -3578,7 +3860,7 @@ function AccountsTracking() {
                                                         children: "كل الأدوار"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1224,
+                                                        lineNumber: 1361,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -3586,7 +3868,7 @@ function AccountsTracking() {
                                                         children: "طلاب"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1225,
+                                                        lineNumber: 1362,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -3594,7 +3876,7 @@ function AccountsTracking() {
                                                         children: "معلمون"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1226,
+                                                        lineNumber: 1363,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -3602,19 +3884,19 @@ function AccountsTracking() {
                                                         children: "المالك"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1227,
+                                                        lineNumber: 1364,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1223,
+                                                lineNumber: 1360,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1219,
+                                        lineNumber: 1356,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3624,7 +3906,7 @@ function AccountsTracking() {
                                                 className: "absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1231,
+                                                lineNumber: 1368,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -3634,25 +3916,25 @@ function AccountsTracking() {
                                                 className: "pr-9 h-9"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1232,
+                                                lineNumber: 1369,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1230,
+                                        lineNumber: 1367,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1218,
+                                lineNumber: 1355,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1211,
+                        lineNumber: 1348,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -3665,12 +3947,12 @@ function AccountsTracking() {
                                     className: "h-14 w-full"
                                 }, i, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1240,
+                                    lineNumber: 1377,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1238,
+                            lineNumber: 1375,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "overflow-x-auto",
@@ -3683,42 +3965,42 @@ function AccountsTracking() {
                                                     children: "الحساب"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1248,
+                                                    lineNumber: 1385,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                                     children: "الدور"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1249,
+                                                    lineNumber: 1386,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                                     children: "حلّها صحيحًا"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1250,
+                                                    lineNumber: 1387,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                                     children: "الدقة"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1251,
+                                                    lineNumber: 1388,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                                     children: "متوسط الاختبارات"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1252,
+                                                    lineNumber: 1389,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
                                                     children: "آخر نشاط"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1253,
+                                                    lineNumber: 1390,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
@@ -3726,18 +4008,18 @@ function AccountsTracking() {
                                                     children: "إجراءات"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1254,
+                                                    lineNumber: 1391,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1247,
+                                            lineNumber: 1384,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1246,
+                                        lineNumber: 1383,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableBody"], {
@@ -3756,7 +4038,7 @@ function AccountsTracking() {
                                                                             children: "محظور"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                                            lineNumber: 1264,
+                                                                            lineNumber: 1401,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         u.role === 'STUDENT' && (u.emailVerified ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -3766,14 +4048,14 @@ function AccountsTracking() {
                                                                                     className: "h-2.5 w-2.5"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                                    lineNumber: 1269,
+                                                                                    lineNumber: 1406,
                                                                                     columnNumber: 33
                                                                                 }, this),
                                                                                 " موثّق"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                                            lineNumber: 1268,
+                                                                            lineNumber: 1405,
                                                                             columnNumber: 31
                                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
                                                                             className: "bg-amber-100 text-amber-800 border-0 text-[9px] h-4 gap-0.5",
@@ -3782,20 +4064,20 @@ function AccountsTracking() {
                                                                                     className: "h-2.5 w-2.5"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                                    lineNumber: 1273,
+                                                                                    lineNumber: 1410,
                                                                                     columnNumber: 33
                                                                                 }, this),
                                                                                 " غير موثّق"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                                            lineNumber: 1272,
+                                                                            lineNumber: 1409,
                                                                             columnNumber: 31
                                                                         }, this))
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                    lineNumber: 1261,
+                                                                    lineNumber: 1398,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3804,13 +4086,13 @@ function AccountsTracking() {
                                                                     children: u.email
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                    lineNumber: 1278,
+                                                                    lineNumber: 1415,
                                                                     columnNumber: 25
                                                                 }, this),
-                                                                u.school && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                (u.school || u.sectionNumber) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-[10px] text-muted-foreground",
                                                                     children: [
-                                                                        u.school === 'مجمع الأمير محمد بن فهد' ? 'مجمع الأمير محمد بن فهد' : u.school,
+                                                                        u.school,
                                                                         u.sectionNumber && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "font-bold text-primary",
                                                                             children: [
@@ -3819,19 +4101,19 @@ function AccountsTracking() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                                            lineNumber: 1282,
-                                                                            columnNumber: 49
+                                                                            lineNumber: 1420,
+                                                                            columnNumber: 31
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                    lineNumber: 1280,
+                                                                    lineNumber: 1417,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1260,
+                                                            lineNumber: 1397,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -3843,12 +4125,12 @@ function AccountsTracking() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                lineNumber: 1287,
+                                                                lineNumber: 1426,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1286,
+                                                            lineNumber: 1425,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -3856,7 +4138,7 @@ function AccountsTracking() {
                                                             children: u.correctCount
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1292,
+                                                            lineNumber: 1431,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -3871,13 +4153,13 @@ function AccountsTracking() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                    lineNumber: 1295,
+                                                                    lineNumber: 1434,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1293,
+                                                            lineNumber: 1432,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -3892,13 +4174,13 @@ function AccountsTracking() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                    lineNumber: 1299,
+                                                                    lineNumber: 1438,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1297,
+                                                            lineNumber: 1436,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -3911,31 +4193,31 @@ function AccountsTracking() {
                                                                             className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('w-1.5 h-1.5 rounded-full inline-block', u.activeThisWeek ? 'bg-emerald-500' : 'bg-muted-foreground/40')
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                                            lineNumber: 1303,
+                                                                            lineNumber: 1442,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["timeAgo"])(u.lastActiveAt)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                    lineNumber: 1302,
+                                                                    lineNumber: 1441,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: "text-[10px] text-muted-foreground block",
                                                                     children: [
-                                                                        "انضم ",
-                                                                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["timeAgo"])(u.createdAt)
+                                                                        "تسجيل ",
+                                                                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["formatDate"])(u.createdAt)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                    lineNumber: 1306,
+                                                                    lineNumber: 1445,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1301,
+                                                            lineNumber: 1440,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -3954,12 +4236,12 @@ function AccountsTracking() {
                                                                             className: "h-4 w-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                                            lineNumber: 1311,
+                                                                            lineNumber: 1450,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                                        lineNumber: 1310,
+                                                                        lineNumber: 1449,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     u.role === 'STUDENT' && !u.emailVerified && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -3975,12 +4257,12 @@ function AccountsTracking() {
                                                                             className: "h-4 w-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                                            lineNumber: 1322,
+                                                                            lineNumber: 1461,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                                        lineNumber: 1314,
+                                                                        lineNumber: 1453,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -3994,12 +4276,12 @@ function AccountsTracking() {
                                                                             className: "h-4 w-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                                            lineNumber: 1333,
+                                                                            lineNumber: 1472,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                                        lineNumber: 1325,
+                                                                        lineNumber: 1464,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     u.role !== 'OWNER' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -4017,12 +4299,12 @@ function AccountsTracking() {
                                                                                     className: "h-4 w-4"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                                    lineNumber: 1351,
+                                                                                    lineNumber: 1490,
                                                                                     columnNumber: 33
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                                lineNumber: 1337,
+                                                                                lineNumber: 1476,
                                                                                 columnNumber: 31
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -4038,12 +4320,12 @@ function AccountsTracking() {
                                                                                     className: "h-4 w-4"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                                    lineNumber: 1367,
+                                                                                    lineNumber: 1506,
                                                                                     columnNumber: 33
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                                lineNumber: 1353,
+                                                                                lineNumber: 1492,
                                                                                 columnNumber: 31
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -4057,12 +4339,12 @@ function AccountsTracking() {
                                                                                     className: "h-4 w-4"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                                                    lineNumber: 1370,
+                                                                                    lineNumber: 1509,
                                                                                     columnNumber: 33
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                                lineNumber: 1369,
+                                                                                lineNumber: 1508,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         ]
@@ -4070,18 +4352,18 @@ function AccountsTracking() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                lineNumber: 1309,
+                                                                lineNumber: 1448,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1308,
+                                                            lineNumber: 1447,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, u.id, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1259,
+                                                    lineNumber: 1396,
                                                     columnNumber: 21
                                                 }, this)),
                                             rows.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableRow"], {
@@ -4091,40 +4373,40 @@ function AccountsTracking() {
                                                     children: "لا توجد حسابات مطابقة"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1380,
+                                                    lineNumber: 1519,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1379,
+                                                lineNumber: 1518,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1257,
+                                        lineNumber: 1394,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1245,
+                                lineNumber: 1382,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1244,
+                            lineNumber: 1381,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1236,
+                        lineNumber: 1373,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1210,
+                lineNumber: 1347,
                 columnNumber: 7
             }, this),
             detailId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AccountDetailDialog, {
@@ -4132,7 +4414,7 @@ function AccountsTracking() {
                 onClose: ()=>setDetailId(null)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1392,
+                lineNumber: 1531,
                 columnNumber: 20
             }, this),
             pwTarget && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(PasswordDialog, {
@@ -4140,13 +4422,13 @@ function AccountsTracking() {
                 onClose: ()=>setPwTarget(null)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1393,
+                lineNumber: 1532,
                 columnNumber: 20
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 1209,
+        lineNumber: 1345,
         columnNumber: 5
     }, this);
 }
@@ -4190,19 +4472,19 @@ function PasswordDialog({ target, onClose }) {
                                 className: "h-5 w-5 text-primary"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1426,
+                                lineNumber: 1565,
                                 columnNumber: 13
                             }, this),
                             " تعيين كلمة مرور جديدة"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1425,
+                        lineNumber: 1564,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1424,
+                    lineNumber: 1563,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4219,7 +4501,7 @@ function PasswordDialog({ target, onClose }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1431,
+                                    lineNumber: 1570,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4228,7 +4510,7 @@ function PasswordDialog({ target, onClose }) {
                                     children: target.email
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1432,
+                                    lineNumber: 1571,
                                     columnNumber: 13
                                 }, this),
                                 isSelf && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4236,13 +4518,13 @@ function PasswordDialog({ target, onClose }) {
                                     children: "هذا حسابك الشخصي — ستُستخدم الكلمة الجديدة في دخولك القادم."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1434,
+                                    lineNumber: 1573,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1430,
+                            lineNumber: 1569,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4253,7 +4535,7 @@ function PasswordDialog({ target, onClose }) {
                                     children: "كلمة المرور الجديدة"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1440,
+                                    lineNumber: 1579,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -4267,7 +4549,7 @@ function PasswordDialog({ target, onClose }) {
                                     autoFocus: true
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1441,
+                                    lineNumber: 1580,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4275,13 +4557,13 @@ function PasswordDialog({ target, onClose }) {
                                     children: "سيُطلب من المستخدم الدخول بهذه الكلمة مباشرة — لا حاجة لكلمة المرور القديمة."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1451,
+                                    lineNumber: 1590,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1439,
+                            lineNumber: 1578,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4296,21 +4578,21 @@ function PasswordDialog({ target, onClose }) {
                                             className: "h-4 w-4 animate-spin"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1457,
+                                            lineNumber: 1596,
                                             columnNumber: 24
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$key$2d$round$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__KeyRound$3e$__["KeyRound"], {
                                             className: "h-4 w-4"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1458,
+                                            lineNumber: 1597,
                                             columnNumber: 15
                                         }, this),
                                         " تعيين الكلمة"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1456,
+                                    lineNumber: 1595,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -4319,30 +4601,30 @@ function PasswordDialog({ target, onClose }) {
                                     children: "إلغاء"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1460,
+                                    lineNumber: 1599,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1455,
+                            lineNumber: 1594,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1429,
+                    lineNumber: 1568,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/platform/admin.tsx",
-            lineNumber: 1423,
+            lineNumber: 1562,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 1422,
+        lineNumber: 1561,
         columnNumber: 5
     }, this);
 }
@@ -4367,26 +4649,26 @@ function AccountDetailDialog({ id, onClose }) {
                                 className: "h-5 w-5 text-primary"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1494,
+                                lineNumber: 1633,
                                 columnNumber: 13
                             }, this),
                             " ملف التتبع التفصيلي"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1493,
+                        lineNumber: 1632,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1492,
+                    lineNumber: 1631,
                     columnNumber: 9
                 }, this),
                 !d ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$skeleton$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Skeleton"], {
                     className: "h-72 rounded-xl"
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1498,
+                    lineNumber: 1637,
                     columnNumber: 11
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "space-y-5",
@@ -4407,7 +4689,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ROLE_LABEL"][d.user.role] || d.user.role
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1507,
+                                                        lineNumber: 1646,
                                                         columnNumber: 21
                                                     }, this),
                                                     d.user.isBanned && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -4415,13 +4697,13 @@ function AccountDetailDialog({ id, onClose }) {
                                                         children: "محظور"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1510,
+                                                        lineNumber: 1649,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1505,
+                                                lineNumber: 1644,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4430,7 +4712,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                 children: d.user.email
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1512,
+                                                lineNumber: 1651,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4444,13 +4726,13 @@ function AccountDetailDialog({ id, onClose }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1513,
+                                                lineNumber: 1652,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1504,
+                                        lineNumber: 1643,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4463,7 +4745,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                         children: d.stats.correct
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1519,
+                                                        lineNumber: 1658,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4471,13 +4753,13 @@ function AccountDetailDialog({ id, onClose }) {
                                                         children: "صحيحة"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1520,
+                                                        lineNumber: 1659,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1518,
+                                                lineNumber: 1657,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4487,7 +4769,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                         children: d.stats.answered
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1523,
+                                                        lineNumber: 1662,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4495,13 +4777,13 @@ function AccountDetailDialog({ id, onClose }) {
                                                         children: "إجابة"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1524,
+                                                        lineNumber: 1663,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1522,
+                                                lineNumber: 1661,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4511,7 +4793,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                         children: d.stats.accuracy !== null ? `${d.stats.accuracy}%` : '—'
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1527,
+                                                        lineNumber: 1666,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4519,13 +4801,13 @@ function AccountDetailDialog({ id, onClose }) {
                                                         children: "الدقة"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1530,
+                                                        lineNumber: 1669,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1526,
+                                                lineNumber: 1665,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4535,7 +4817,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                         children: d.user._count.favorites
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1533,
+                                                        lineNumber: 1672,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4543,30 +4825,30 @@ function AccountDetailDialog({ id, onClose }) {
                                                         children: "مفضلة"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1534,
+                                                        lineNumber: 1673,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1532,
+                                                lineNumber: 1671,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1517,
+                                        lineNumber: 1656,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1503,
+                                lineNumber: 1642,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1502,
+                            lineNumber: 1641,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4576,7 +4858,7 @@ function AccountDetailDialog({ id, onClose }) {
                                     children: "الأداء حسب الموضوع"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1542,
+                                    lineNumber: 1681,
                                     columnNumber: 15
                                 }, this),
                                 d.topics.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4584,7 +4866,7 @@ function AccountDetailDialog({ id, onClose }) {
                                     children: "لم يحل أي سؤال بعد."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1544,
+                                    lineNumber: 1683,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "grid sm:grid-cols-2 gap-x-5 gap-y-3",
@@ -4598,7 +4880,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                             children: t.topic
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1550,
+                                                            lineNumber: 1689,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4611,13 +4893,13 @@ function AccountDetailDialog({ id, onClose }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1551,
+                                                            lineNumber: 1690,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1549,
+                                                    lineNumber: 1688,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4629,29 +4911,29 @@ function AccountDetailDialog({ id, onClose }) {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1554,
+                                                        lineNumber: 1693,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1553,
+                                                    lineNumber: 1692,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, t.topic, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1548,
+                                            lineNumber: 1687,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1546,
+                                    lineNumber: 1685,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1541,
+                            lineNumber: 1680,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4661,7 +4943,7 @@ function AccountDetailDialog({ id, onClose }) {
                                     children: "آخر محاولات الاختبارات"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1567,
+                                    lineNumber: 1706,
                                     columnNumber: 15
                                 }, this),
                                 d.attempts.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4669,7 +4951,7 @@ function AccountDetailDialog({ id, onClose }) {
                                     children: "لم يخُض أي اختبار بعد."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1569,
+                                    lineNumber: 1708,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "space-y-2",
@@ -4681,7 +4963,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                     children: a.examTitle
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1574,
+                                                    lineNumber: 1713,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4695,14 +4977,14 @@ function AccountDetailDialog({ id, onClose }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1577,
+                                                            lineNumber: 1716,
                                                             columnNumber: 27
                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "text-muted-foreground",
                                                             children: "قيد الحل"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1581,
+                                                            lineNumber: 1720,
                                                             columnNumber: 27
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4710,30 +4992,30 @@ function AccountDetailDialog({ id, onClose }) {
                                                             children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["timeAgo"])(a.startedAt)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1583,
+                                                            lineNumber: 1722,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1575,
+                                                    lineNumber: 1714,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, a.id, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1573,
+                                            lineNumber: 1712,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1571,
+                                    lineNumber: 1710,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1566,
+                            lineNumber: 1705,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4743,7 +5025,7 @@ function AccountDetailDialog({ id, onClose }) {
                                     children: "آخر الإجابات المسجلة"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1593,
+                                    lineNumber: 1732,
                                     columnNumber: 15
                                 }, this),
                                 d.recentAnswers.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4751,7 +5033,7 @@ function AccountDetailDialog({ id, onClose }) {
                                     children: "لا توجد إجابات بعد."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1595,
+                                    lineNumber: 1734,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "space-y-1.5 max-h-56 overflow-y-auto",
@@ -4762,7 +5044,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                     className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('w-2 h-2 rounded-full shrink-0', r.isCorrect ? 'bg-emerald-500' : 'bg-rose-500')
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1600,
+                                                    lineNumber: 1739,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4770,7 +5052,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                     children: r.questionText.replace(/\n/g, ' ').slice(0, 70)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1601,
+                                                    lineNumber: 1740,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -4779,7 +5061,7 @@ function AccountDetailDialog({ id, onClose }) {
                                                     children: r.topic
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1602,
+                                                    lineNumber: 1741,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4787,41 +5069,41 @@ function AccountDetailDialog({ id, onClose }) {
                                                     children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["timeAgo"])(r.createdAt)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1603,
+                                                    lineNumber: 1742,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, r.id, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1599,
+                                            lineNumber: 1738,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1597,
+                                    lineNumber: 1736,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1592,
+                            lineNumber: 1731,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1500,
+                    lineNumber: 1639,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/platform/admin.tsx",
-            lineNumber: 1491,
+            lineNumber: 1630,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 1490,
+        lineNumber: 1629,
         columnNumber: 5
     }, this);
 }
@@ -4872,7 +5154,7 @@ function EventsManager() {
                         children: "الأحداث المنشورة تظهر للطلاب في صفحة الأحداث ولوحة الطالب — إعلانات، مسابقات، جلسات ونصائح."
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1664,
+                        lineNumber: 1803,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -4883,20 +5165,20 @@ function EventsManager() {
                                 className: "h-4 w-4"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1668,
+                                lineNumber: 1807,
                                 columnNumber: 11
                             }, this),
                             " حدث جديد"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1667,
+                        lineNumber: 1806,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1663,
+                lineNumber: 1802,
                 columnNumber: 7
             }, this),
             rows === null ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4907,12 +5189,12 @@ function EventsManager() {
                         className: "h-28 rounded-2xl"
                     }, i, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1675,
+                        lineNumber: 1814,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1673,
+                lineNumber: 1812,
                 columnNumber: 9
             }, this) : rows.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -4920,12 +5202,12 @@ function EventsManager() {
                     children: "لا توجد أحداث بعد — أنشئ أول حدث لطلابك."
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1680,
+                    lineNumber: 1819,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1679,
+                lineNumber: 1818,
                 columnNumber: 9
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "space-y-3",
@@ -4942,12 +5224,12 @@ function EventsManager() {
                                             className: "h-5 w-5"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1691,
+                                            lineNumber: 1830,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1690,
+                                        lineNumber: 1829,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4961,7 +5243,7 @@ function EventsManager() {
                                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["EVENT_TYPE_LABEL"][e.type] || e.type
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1695,
+                                                        lineNumber: 1834,
                                                         columnNumber: 23
                                                     }, this),
                                                     e.startsAt && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4972,7 +5254,7 @@ function EventsManager() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1699,
+                                                        lineNumber: 1838,
                                                         columnNumber: 25
                                                     }, this),
                                                     !e.isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -4981,7 +5263,7 @@ function EventsManager() {
                                                         children: "مخفي"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1702,
+                                                        lineNumber: 1841,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4992,13 +5274,13 @@ function EventsManager() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1704,
+                                                        lineNumber: 1843,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1694,
+                                                lineNumber: 1833,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5006,7 +5288,7 @@ function EventsManager() {
                                                 children: e.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1706,
+                                                lineNumber: 1845,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5014,13 +5296,13 @@ function EventsManager() {
                                                 children: e.body
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1707,
+                                                lineNumber: 1846,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1693,
+                                        lineNumber: 1832,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5034,7 +5316,7 @@ function EventsManager() {
                                                 children: e.isActive ? 'إخفاء' : 'نشر'
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1710,
+                                                lineNumber: 1849,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -5047,12 +5329,12 @@ function EventsManager() {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1714,
+                                                    lineNumber: 1853,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1713,
+                                                lineNumber: 1852,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -5065,39 +5347,39 @@ function EventsManager() {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1717,
+                                                    lineNumber: 1856,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1716,
+                                                lineNumber: 1855,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1709,
+                                        lineNumber: 1848,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1689,
+                                lineNumber: 1828,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1688,
+                            lineNumber: 1827,
                             columnNumber: 15
                         }, this)
                     }, e.id, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1687,
+                        lineNumber: 1826,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1685,
+                lineNumber: 1824,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(EventFormDialog, {
@@ -5114,13 +5396,13 @@ function EventsManager() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1727,
+                lineNumber: 1866,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 1662,
+        lineNumber: 1801,
         columnNumber: 5
     }, this);
 }
@@ -5179,12 +5461,12 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                         children: isEdit ? 'تعديل الحدث' : 'حدث جديد'
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1782,
+                        lineNumber: 1921,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1781,
+                    lineNumber: 1920,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5200,7 +5482,7 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                             children: "النوع"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1787,
+                                            lineNumber: 1926,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -5211,12 +5493,12 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectTrigger"], {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectValue"], {}, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1790,
+                                                        lineNumber: 1929,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1789,
+                                                    lineNumber: 1928,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -5226,7 +5508,7 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                                             children: "إعلان"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1793,
+                                                            lineNumber: 1932,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -5234,7 +5516,7 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                                             children: "حدث"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1794,
+                                                            lineNumber: 1933,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -5242,7 +5524,7 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                                             children: "مسابقة"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1795,
+                                                            lineNumber: 1934,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -5250,25 +5532,25 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                                             children: "نصيحة"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 1796,
+                                                            lineNumber: 1935,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1792,
+                                                    lineNumber: 1931,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1788,
+                                            lineNumber: 1927,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1786,
+                                    lineNumber: 1925,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5278,7 +5560,7 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                             children: "الموعد (اختياري)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1801,
+                                            lineNumber: 1940,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -5288,19 +5570,19 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                             dir: "ltr"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1802,
+                                            lineNumber: 1941,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1800,
+                                    lineNumber: 1939,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1785,
+                            lineNumber: 1924,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5310,7 +5592,7 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                     children: "العنوان"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1806,
+                                    lineNumber: 1945,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -5319,13 +5601,13 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                     placeholder: "مثال: مسابقة المتصدر الأسبوعي"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1807,
+                                    lineNumber: 1946,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1805,
+                            lineNumber: 1944,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5335,7 +5617,7 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                     children: "التفاصيل"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1810,
+                                    lineNumber: 1949,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -5345,13 +5627,13 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                     placeholder: "اكتب تفاصيل الحدث التي سيقرؤها الطلاب..."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1811,
+                                    lineNumber: 1950,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1809,
+                            lineNumber: 1948,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5363,7 +5645,7 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                     children: "إلغاء"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1814,
+                                    lineNumber: 1953,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -5375,37 +5657,37 @@ function EventFormDialog({ open, event, onClose, onSaved }) {
                                             className: "h-4 w-4 animate-spin"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1818,
+                                            lineNumber: 1957,
                                             columnNumber: 26
                                         }, this),
                                         isEdit ? 'حفظ التعديل' : 'نشر الحدث'
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 1817,
+                                    lineNumber: 1956,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1813,
+                            lineNumber: 1952,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1784,
+                    lineNumber: 1923,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/platform/admin.tsx",
-            lineNumber: 1780,
+            lineNumber: 1919,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 1779,
+        lineNumber: 1918,
         columnNumber: 5
     }, this);
 }
@@ -5457,7 +5739,7 @@ function ClipsManager() {
                         children: "المقاطع المنشورة تظهر للطلاب في صفحة «المقاطع التعليمية» — الصق رابط يوتيوب، أو ارفع فيديو من جهازك مباشرة (حتى 500MB). ملفات الفيديو تُبث للطلاب برابط موقّع مؤقت: لا يُكشف مصدرها ولا يمكن تحميلها."
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1885,
+                        lineNumber: 2024,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5472,14 +5754,14 @@ function ClipsManager() {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1891,
+                                        lineNumber: 2030,
                                         columnNumber: 13
                                     }, this),
                                     " رفع من جهازي"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1890,
+                                lineNumber: 2029,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -5490,26 +5772,26 @@ function ClipsManager() {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1894,
+                                        lineNumber: 2033,
                                         columnNumber: 13
                                     }, this),
                                     " مقطع جديد"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1893,
+                                lineNumber: 2032,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1889,
+                        lineNumber: 2028,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1884,
+                lineNumber: 2023,
                 columnNumber: 7
             }, this),
             rows === null ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5520,12 +5802,12 @@ function ClipsManager() {
                         className: "h-28 rounded-2xl"
                     }, i, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1902,
+                        lineNumber: 2041,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1900,
+                lineNumber: 2039,
                 columnNumber: 9
             }, this) : rows.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -5533,12 +5815,12 @@ function ClipsManager() {
                     children: "لا توجد مقاطع بعد — أضف أول درس مرئي لطلابك."
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 1907,
+                    lineNumber: 2046,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1906,
+                lineNumber: 2045,
                 columnNumber: 9
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "space-y-3",
@@ -5557,7 +5839,7 @@ function ClipsManager() {
                                             className: "w-full h-full object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1919,
+                                            lineNumber: 2058,
                                             columnNumber: 23
                                         }, this) : c.hasPoster ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: `/api/clips/${c.id}/poster`,
@@ -5565,18 +5847,18 @@ function ClipsManager() {
                                             className: "w-full h-full object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1921,
+                                            lineNumber: 2060,
                                             columnNumber: 23
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$monitor$2d$play$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MonitorPlay$3e$__["MonitorPlay"], {
                                             className: "h-6 w-6 text-muted-foreground/50"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 1923,
+                                            lineNumber: 2062,
                                             columnNumber: 23
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1917,
+                                        lineNumber: 2056,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5594,7 +5876,7 @@ function ClipsManager() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1928,
+                                                        lineNumber: 2067,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -5603,7 +5885,7 @@ function ClipsManager() {
                                                         children: c.provider === 'YOUTUBE' ? 'يوتيوب' : c.uploaded ? `مرفوع · ${(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$clips$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["formatBytes"])(c.fileSize)}` : 'ملف فيديو'
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1932,
+                                                        lineNumber: 2071,
                                                         columnNumber: 23
                                                     }, this),
                                                     c.uploaded && !!c.durationSec && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -5614,7 +5896,7 @@ function ClipsManager() {
                                                                 className: "h-3 w-3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                lineNumber: 1937,
+                                                                lineNumber: 2076,
                                                                 columnNumber: 27
                                                             }, this),
                                                             " ",
@@ -5622,7 +5904,7 @@ function ClipsManager() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1936,
+                                                        lineNumber: 2075,
                                                         columnNumber: 25
                                                     }, this),
                                                     c.provider === 'FILE' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -5633,14 +5915,14 @@ function ClipsManager() {
                                                                 className: "h-3 w-3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                lineNumber: 1942,
+                                                                lineNumber: 2081,
                                                                 columnNumber: 27
                                                             }, this),
                                                             " محمي من التحميل"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1941,
+                                                        lineNumber: 2080,
                                                         columnNumber: 25
                                                     }, this),
                                                     !c.isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -5649,7 +5931,7 @@ function ClipsManager() {
                                                         children: "مخفي"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1946,
+                                                        lineNumber: 2085,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5661,13 +5943,13 @@ function ClipsManager() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 1948,
+                                                        lineNumber: 2087,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1927,
+                                                lineNumber: 2066,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5675,7 +5957,7 @@ function ClipsManager() {
                                                 children: c.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1950,
+                                                lineNumber: 2089,
                                                 columnNumber: 21
                                             }, this),
                                             c.description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5683,7 +5965,7 @@ function ClipsManager() {
                                                 children: c.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1952,
+                                                lineNumber: 2091,
                                                 columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5692,13 +5974,13 @@ function ClipsManager() {
                                                 children: c.url
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1954,
+                                                lineNumber: 2093,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1926,
+                                        lineNumber: 2065,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5712,7 +5994,7 @@ function ClipsManager() {
                                                 children: c.isActive ? 'إخفاء' : 'نشر'
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1957,
+                                                lineNumber: 2096,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -5725,12 +6007,12 @@ function ClipsManager() {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1961,
+                                                    lineNumber: 2100,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1960,
+                                                lineNumber: 2099,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -5743,39 +6025,39 @@ function ClipsManager() {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 1964,
+                                                    lineNumber: 2103,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 1963,
+                                                lineNumber: 2102,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 1956,
+                                        lineNumber: 2095,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 1916,
+                                lineNumber: 2055,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 1915,
+                            lineNumber: 2054,
                             columnNumber: 15
                         }, this)
                     }, c.id, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 1914,
+                        lineNumber: 2053,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1912,
+                lineNumber: 2051,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ClipFormDialog, {
@@ -5792,7 +6074,7 @@ function ClipsManager() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1974,
+                lineNumber: 2113,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(UploadClipDialog, {
@@ -5804,13 +6086,13 @@ function ClipsManager() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/components/platform/admin.tsx",
-                lineNumber: 1988,
+                lineNumber: 2127,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 1883,
+        lineNumber: 2022,
         columnNumber: 5
     }, this);
 }
@@ -5830,21 +6112,22 @@ const MAX_CLIP_MB = 500;
     const [uploading, setUploading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [dragOver, setDragOver] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [inputKey, setInputKey] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        if (open) {
-            setFile(null);
-            setTitle('');
-            setDescription('');
-            setCategory('GENERAL');
-            setTopic('none');
-            setProgress(0);
-            setUploading(false);
-            setDragOver(false);
-            setInputKey((k)=>k + 1);
-        }
-    }, [
-        open
-    ]);
+    const reset = ()=>{
+        setFile(null);
+        setTitle('');
+        setDescription('');
+        setCategory('GENERAL');
+        setTopic('none');
+        setProgress(0);
+        setUploading(false);
+        setDragOver(false);
+        setInputKey((k)=>k + 1);
+    };
+    // كل مسارات الإغلاق تمر من هنا حتى يبدأ النموذج نظيفًا في المرة التالية
+    const handleClose = ()=>{
+        reset();
+        onClose();
+    };
     const pickFile = (f)=>{
         if (!f) return;
         if (f.size > MAX_CLIP_MB * 1024 * 1024) {
@@ -5881,6 +6164,7 @@ const MAX_CLIP_MB = 500;
             /* رد غير JSON */ }
             if (xhr.status === 201) {
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].success('رُفع المقطع ونُشر للطلاب بنجاح');
+                reset();
                 onSaved();
             } else {
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error(msg);
@@ -5895,7 +6179,7 @@ const MAX_CLIP_MB = 500;
     const valid = !!file && title.trim().length >= 3;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Dialog"], {
         open: open,
-        onOpenChange: (o)=>!o && !uploading && onClose(),
+        onOpenChange: (o)=>!o && !uploading && handleClose(),
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DialogContent"], {
             className: "max-w-lg max-h-[90vh] overflow-y-auto",
             children: [
@@ -5907,19 +6191,19 @@ const MAX_CLIP_MB = 500;
                                 className: "h-5 w-5 text-primary"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                lineNumber: 2091,
+                                lineNumber: 2235,
                                 columnNumber: 13
                             }, this),
                             " رفع مقطع من جهازي"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 2090,
+                        lineNumber: 2234,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 2089,
+                    lineNumber: 2233,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5946,7 +6230,7 @@ const MAX_CLIP_MB = 500;
                                     disabled: uploading
                                 }, inputKey, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2112,
+                                    lineNumber: 2256,
                                     columnNumber: 13
                                 }, this),
                                 file ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -5957,12 +6241,12 @@ const MAX_CLIP_MB = 500;
                                                 className: "h-6 w-6 text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 2123,
+                                                lineNumber: 2267,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2122,
+                                            lineNumber: 2266,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5970,7 +6254,7 @@ const MAX_CLIP_MB = 500;
                                             children: file.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2125,
+                                            lineNumber: 2269,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5981,7 +6265,7 @@ const MAX_CLIP_MB = 500;
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2126,
+                                            lineNumber: 2270,
                                             columnNumber: 17
                                         }, this)
                                     ]
@@ -5993,12 +6277,12 @@ const MAX_CLIP_MB = 500;
                                                 className: "h-6 w-6 text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                lineNumber: 2131,
+                                                lineNumber: 2275,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2130,
+                                            lineNumber: 2274,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6006,7 +6290,7 @@ const MAX_CLIP_MB = 500;
                                             children: "اسحب الفيديو هنا أو اضغط للاختيار من جهازك"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2133,
+                                            lineNumber: 2277,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6018,7 +6302,7 @@ const MAX_CLIP_MB = 500;
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2134,
+                                            lineNumber: 2278,
                                             columnNumber: 17
                                         }, this)
                                     ]
@@ -6026,7 +6310,7 @@ const MAX_CLIP_MB = 500;
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2096,
+                            lineNumber: 2240,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6036,7 +6320,7 @@ const MAX_CLIP_MB = 500;
                                     children: "العنوان *"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2140,
+                                    lineNumber: 2284,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -6046,13 +6330,13 @@ const MAX_CLIP_MB = 500;
                                     disabled: uploading
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2141,
+                                    lineNumber: 2285,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2139,
+                            lineNumber: 2283,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6065,7 +6349,7 @@ const MAX_CLIP_MB = 500;
                                             children: "القسم"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2150,
+                                            lineNumber: 2294,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -6077,12 +6361,12 @@ const MAX_CLIP_MB = 500;
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectTrigger"], {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectValue"], {}, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 2153,
+                                                        lineNumber: 2297,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 2152,
+                                                    lineNumber: 2296,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -6092,7 +6376,7 @@ const MAX_CLIP_MB = 500;
                                                             children: "عام"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 2156,
+                                                            lineNumber: 2300,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -6100,7 +6384,7 @@ const MAX_CLIP_MB = 500;
                                                             children: "كمي"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 2157,
+                                                            lineNumber: 2301,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -6108,25 +6392,25 @@ const MAX_CLIP_MB = 500;
                                                             children: "لفظي"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 2158,
+                                                            lineNumber: 2302,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 2155,
+                                                    lineNumber: 2299,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2151,
+                                            lineNumber: 2295,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2149,
+                                    lineNumber: 2293,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6136,7 +6420,7 @@ const MAX_CLIP_MB = 500;
                                             children: "الموضوع (اختياري)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2163,
+                                            lineNumber: 2307,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -6150,12 +6434,12 @@ const MAX_CLIP_MB = 500;
                                                         placeholder: "بدون"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 2166,
+                                                        lineNumber: 2310,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 2165,
+                                                    lineNumber: 2309,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -6165,7 +6449,7 @@ const MAX_CLIP_MB = 500;
                                                             children: "بدون موضوع"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 2169,
+                                                            lineNumber: 2313,
                                                             columnNumber: 19
                                                         }, this),
                                                         (__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TOPICS"][category] || []).map((t)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -6173,31 +6457,31 @@ const MAX_CLIP_MB = 500;
                                                                 children: t
                                                             }, t, false, {
                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                lineNumber: 2171,
+                                                                lineNumber: 2315,
                                                                 columnNumber: 21
                                                             }, this))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 2168,
+                                                    lineNumber: 2312,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2164,
+                                            lineNumber: 2308,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2162,
+                                    lineNumber: 2306,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2148,
+                            lineNumber: 2292,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6207,7 +6491,7 @@ const MAX_CLIP_MB = 500;
                                     children: "وصف مختصر (اختياري)"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2180,
+                                    lineNumber: 2324,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -6218,13 +6502,13 @@ const MAX_CLIP_MB = 500;
                                     disabled: uploading
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2181,
+                                    lineNumber: 2325,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2179,
+                            lineNumber: 2323,
                             columnNumber: 11
                         }, this),
                         uploading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6237,7 +6521,7 @@ const MAX_CLIP_MB = 500;
                                             children: "جارٍ الرفع…"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2194,
+                                            lineNumber: 2338,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6248,13 +6532,13 @@ const MAX_CLIP_MB = 500;
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2195,
+                                            lineNumber: 2339,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2193,
+                                    lineNumber: 2337,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6266,12 +6550,12 @@ const MAX_CLIP_MB = 500;
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                        lineNumber: 2198,
+                                        lineNumber: 2342,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2197,
+                                    lineNumber: 2341,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6279,13 +6563,13 @@ const MAX_CLIP_MB = 500;
                                     children: "لا تغلق النافذة حتى يكتمل الرفع"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2203,
+                                    lineNumber: 2347,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2192,
+                            lineNumber: 2336,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6293,12 +6577,12 @@ const MAX_CLIP_MB = 500;
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                     variant: "outline",
-                                    onClick: onClose,
+                                    onClick: handleClose,
                                     disabled: uploading,
                                     children: uploading ? 'الرفع جارٍ…' : 'إلغاء'
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2208,
+                                    lineNumber: 2352,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -6310,43 +6594,43 @@ const MAX_CLIP_MB = 500;
                                             className: "h-4 w-4 animate-spin"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2212,
+                                            lineNumber: 2356,
                                             columnNumber: 28
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$hard$2d$drive$2d$upload$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HardDriveUpload$3e$__["HardDriveUpload"], {
                                             className: "h-4 w-4"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2212,
+                                            lineNumber: 2356,
                                             columnNumber: 75
                                         }, this),
                                         uploading ? `${progress}%` : 'رفع ونشر'
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2211,
+                                    lineNumber: 2355,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2207,
+                            lineNumber: 2351,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 2094,
+                    lineNumber: 2238,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/platform/admin.tsx",
-            lineNumber: 2088,
+            lineNumber: 2232,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 2087,
+        lineNumber: 2231,
         columnNumber: 5
     }, this);
 }
@@ -6412,12 +6696,12 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                         children: isEdit ? 'تعديل المقطع' : 'مقطع تعليمي جديد'
                     }, void 0, false, {
                         fileName: "[project]/src/components/platform/admin.tsx",
-                        lineNumber: 2271,
+                        lineNumber: 2415,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 2270,
+                    lineNumber: 2414,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6433,14 +6717,14 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                             className: "h-4 w-4 text-primary"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2277,
+                                            lineNumber: 2421,
                                             columnNumber: 17
                                         }, this),
                                         " مقطع مرفوع من جهازك"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2276,
+                                    lineNumber: 2420,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6449,7 +6733,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     children: clip.url
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2279,
+                                    lineNumber: 2423,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6461,13 +6745,13 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2280,
+                                    lineNumber: 2424,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2275,
+                            lineNumber: 2419,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "space-y-1.5",
@@ -6476,7 +6760,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     children: "رابط الفيديو *"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2286,
+                                    lineNumber: 2430,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -6487,7 +6771,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     className: "text-left"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2287,
+                                    lineNumber: 2431,
                                     columnNumber: 15
                                 }, this),
                                 detected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6495,7 +6779,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     children: detected.provider === 'YOUTUBE' ? '✓ رابط يوتيوب — سيُضمَّن المشغل تلقائيًا' : '✓ ملف فيديو مباشر — سيُبث محميًا عبر المنصة برابط مؤقت، والطلاب لا يستطيعون تحميله أو معرفة مصدره'
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2295,
+                                    lineNumber: 2439,
                                     columnNumber: 17
                                 }, this),
                                 url.trim() && !detected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6503,7 +6787,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     children: "سيُعامَل كملف فيديو مباشر (mp4/webm) أو تأكد أن الرابط رابط يوتيوب صحيح."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2300,
+                                    lineNumber: 2444,
                                     columnNumber: 17
                                 }, this),
                                 !isEdit && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6511,13 +6795,13 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     children: "تريد رفع فيديو من جهازك؟ استخدم زر «رفع من جهازي» في قائمة المقاطع."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2303,
+                                    lineNumber: 2447,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2285,
+                            lineNumber: 2429,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6527,7 +6811,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     children: "العنوان *"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2310,
+                                    lineNumber: 2454,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -6536,13 +6820,13 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     placeholder: "مثال: شرح التناظر اللفظي — خطوة بخطوة"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2311,
+                                    lineNumber: 2455,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2309,
+                            lineNumber: 2453,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6555,7 +6839,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                             children: "القسم"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2315,
+                                            lineNumber: 2459,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -6566,12 +6850,12 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectTrigger"], {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectValue"], {}, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 2318,
+                                                        lineNumber: 2462,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 2317,
+                                                    lineNumber: 2461,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -6581,7 +6865,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                                             children: "عام"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 2321,
+                                                            lineNumber: 2465,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -6589,7 +6873,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                                             children: "كمي"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 2322,
+                                                            lineNumber: 2466,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -6597,25 +6881,25 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                                             children: "لفظي"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 2323,
+                                                            lineNumber: 2467,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 2320,
+                                                    lineNumber: 2464,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2316,
+                                            lineNumber: 2460,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2314,
+                                    lineNumber: 2458,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6625,7 +6909,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                             children: "الموضوع (اختياري)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2328,
+                                            lineNumber: 2472,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -6638,12 +6922,12 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                                         placeholder: "بدون"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/admin.tsx",
-                                                        lineNumber: 2331,
+                                                        lineNumber: 2475,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 2330,
+                                                    lineNumber: 2474,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -6653,7 +6937,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                                             children: "بدون موضوع"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                                            lineNumber: 2334,
+                                                            lineNumber: 2478,
                                                             columnNumber: 19
                                                         }, this),
                                                         (__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TOPICS"][category] || []).map((t)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -6661,31 +6945,31 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                                                 children: t
                                                             }, t, false, {
                                                                 fileName: "[project]/src/components/platform/admin.tsx",
-                                                                lineNumber: 2336,
+                                                                lineNumber: 2480,
                                                                 columnNumber: 21
                                                             }, this))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                                    lineNumber: 2333,
+                                                    lineNumber: 2477,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2329,
+                                            lineNumber: 2473,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2327,
+                                    lineNumber: 2471,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2313,
+                            lineNumber: 2457,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6695,7 +6979,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     children: "وصف مختصر (اختياري)"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2345,
+                                    lineNumber: 2489,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -6705,13 +6989,13 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     placeholder: "ماذا سيتعلم الطالب من هذا المقطع؟"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2346,
+                                    lineNumber: 2490,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2344,
+                            lineNumber: 2488,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6723,7 +7007,7 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                     children: "إلغاء"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2354,
+                                    lineNumber: 2498,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -6735,37 +7019,37 @@ function ClipFormDialog({ open, clip, onClose, onSaved }) {
                                             className: "h-4 w-4 animate-spin"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/admin.tsx",
-                                            lineNumber: 2358,
+                                            lineNumber: 2502,
                                             columnNumber: 26
                                         }, this),
                                         isEdit ? 'حفظ التعديل' : 'نشر المقطع'
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/admin.tsx",
-                                    lineNumber: 2357,
+                                    lineNumber: 2501,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/platform/admin.tsx",
-                            lineNumber: 2353,
+                            lineNumber: 2497,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/admin.tsx",
-                    lineNumber: 2273,
+                    lineNumber: 2417,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/platform/admin.tsx",
-            lineNumber: 2269,
+            lineNumber: 2413,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/platform/admin.tsx",
-        lineNumber: 2268,
+        lineNumber: 2412,
         columnNumber: 5
     }, this);
 }

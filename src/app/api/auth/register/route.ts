@@ -2,9 +2,9 @@ import { NextRequest } from 'next/server'
 import { db } from '@/lib/db'
 import { hashPassword, setSessionCookie } from '@/lib/auth'
 import { validateRealEmail } from '@/lib/email-guard'
-import { issueVerificationCode } from '@/lib/verify'
 import { guard } from '@/lib/rate-limit'
 import { handle, fail } from '@/lib/api'
+import { getCurrentInviteCode, inviteCodeMatches, isRegistrationOpen } from '@/lib/platform-settings'
 
 export async function POST(req: NextRequest) {
   // حماية من التسجيل الجماعي الآلي — سقف يتحمل تسجيل مدرسة كاملة (1200 طالب) من نفس الشبكة
@@ -15,23 +15,32 @@ export async function POST(req: NextRequest) {
     const body = await req.json().catch(() => null)
     const name = body?.name?.trim()
     const email = body?.email?.trim()?.toLowerCase()
+    const confirmEmail = typeof body?.confirmEmail === 'string' ? body.confirmEmail.trim().toLowerCase() : null
     const password = body?.password
     const grade = body?.grade?.trim() || null
-    const school = body?.school?.trim() || null
+    const school = body?.school?.trim() || null // حقل قديم اختياري — الواجهة الجديدة لا ترسله
     const sectionNumber = body?.sectionNumber?.trim() || null
+    const inviteCode = typeof body?.inviteCode === 'string' ? body.inviteCode : ''
 
+    // 1) بوابة رمز الدعوة — تُقارن بجهة الخادم فقط
+    if (!(await isRegistrationOpen())) {
+      return fail('التسجيل مغلق حاليًا — تواصل مع إدارة المنصة', 403)
+    }
+    if (!inviteCode.trim()) return fail('رمز الدعوة مطلوب — أدخل رمز الدعوة الذي حصلت عليه من إدارة المنصة', 422)
+    const storedCode = await getCurrentInviteCode()
+    if (!inviteCodeMatches(inviteCode, storedCode)) {
+      return fail('رمز الدعوة غير صحيح — تأكد منه مع إدارة المنصة', 403)
+    }
+
+    // 2) البيانات الأساسية
     if (!name || name.length < 2) return fail('الاسم مطلوب (حرفان على الأقل)', 422)
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return fail('البريد الإلكتروني غير صحيح', 422)
+    if (confirmEmail !== null && confirmEmail !== email) return fail('البريد الإلكتروني غير متطابق', 422)
     if (!password || password.length < 8) return fail('كلمة المرور يجب أن تكون 8 أحرف على الأقل', 422)
 
-    // شعبة طلاب مجمع الأمير محمد بن فهد: إلزامية بصيغة 3 أرقام (101 / 204 / 308)
-    const COMPLEX = 'مجمع الأمير محمد بن فهد'
-    if (school === COMPLEX) {
-      if (!sectionNumber) return fail('رقم الشعبة مطلوب لطلاب المجمع — اكتب رقم شعبتك مثل 101 أو 204 أو 308', 422)
-      if (!/^\d{3}$/.test(sectionNumber)) return fail('رقم الشعبة يجب أن يكون 3 أرقام — مثل 101 أو 204 أو 308', 422)
-    } else if (sectionNumber && school !== COMPLEX) {
-      return fail('رقم الشعبة مخصص لطلاب مجمع الأمير محمد بن فهد فقط', 422)
-    }
+    // 3) الشعبة إلزامية لكل طالب: 3 أرقام فقط (مثل 101 / 204 / 308)
+    if (!sectionNumber) return fail('رقم الشعبة مطلوب — اكتب رقم شعبتك بـ 3 أرقام مثل 101 أو 204 أو 308', 422)
+    if (!/^\d{3}$/.test(sectionNumber)) return fail('رقم الشعبة يجب أن يكون 3 أرقام فقط — مثل 101 أو 204 أو 308', 422)
 
     const existing = await db.user.findUnique({ where: { email } })
     if (existing) return fail('هذا البريد الإلكتروني مسجل مسبقًا', 409)
@@ -48,22 +57,15 @@ export async function POST(req: NextRequest) {
         passwordHash,
         role: 'STUDENT',
         grade,
-        school: school === COMPLEX ? COMPLEX : null,
-        sectionNumber: school === COMPLEX ? sectionNumber : null,
-        emailVerified: false,
+        school,
+        sectionNumber,
+        // التسجيل بدعوة = بريد موثوق تلقائيًا — بدون رمز تأكيد، ودخول مباشر للمنصة
+        emailVerified: true,
       },
       select: { id: true, name: true, email: true, role: true },
     })
 
-    // إصدار رمز التأكيد وإرساله (الوضع اليدوي إن لم يُعد مزود بريد)
-    let verificationSent = false
-    try {
-      verificationSent = await issueVerificationCode({ id: user.id, name: user.name, email: user.email })
-    } catch (e) {
-      console.error('[register] verification issue failed:', e)
-    }
-
     const token = await setSessionCookie(user.id, user.role)
-    return Response.json({ user, token, emailVerified: false, verificationSent })
+    return Response.json({ user, token, emailVerified: true })
   })
 }

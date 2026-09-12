@@ -223,6 +223,13 @@ model Clip {
   @@index([createdAt])
 }
 
+// ============ إعدادات المنصة العامة (رمز الدعوة، مفتاح التسجيل...) ============
+model PlatformSetting {
+  key       String   @id // مثل: INVITE_CODE | REGISTRATION_OPEN
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
 // ============ سجل عمليات الاستيراد ============
 model ImportLog {
   id           String   @id @default(cuid())

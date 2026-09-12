@@ -959,11 +959,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mail.js [app-ssr] (ecmascript) <export default as Mail>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$key$2d$round$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__KeyRound$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/key-round.js [app-ssr] (ecmascript) <export default as KeyRound>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/user.js [app-ssr] (ecmascript) <export default as User>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$school$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__School$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/school.js [app-ssr] (ecmascript) <export default as School>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield-check.js [app-ssr] (ecmascript) <export default as ShieldCheck>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$life$2d$buoy$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LifeBuoy$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/life-buoy.js [app-ssr] (ecmascript) <export default as LifeBuoy>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$crown$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Crown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/crown.js [app-ssr] (ecmascript) <export default as Crown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$square$2d$terminal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TerminalSquare$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/square-terminal.js [app-ssr] (ecmascript) <export default as TerminalSquare>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ticket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Ticket$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/ticket.js [app-ssr] (ecmascript) <export default as Ticket>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-ssr] (ecmascript) <export default as ArrowRight>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$alert$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-alert.js [app-ssr] (ecmascript) <export default as AlertCircle>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/dialog.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/sonner/dist/index.mjs [app-ssr] (ecmascript)");
 'use client';
@@ -984,21 +986,47 @@ const GRADES = [
     'السنة الثالثة ثانوي',
     'خريج'
 ];
-const COMPLEX = 'مجمع الأمير محمد بن فهد';
-const SCHOOLS = [
-    COMPLEX,
-    'مدرسة أو مجمع آخر'
-];
 function AuthView({ mode, redirect }) {
     const { refresh } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSession"])();
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [name, setName] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
     const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
+    const [confirmEmail, setConfirmEmail] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
     const [password, setPassword] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
     const [grade, setGrade] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
-    const [school, setSchool] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
     const [sectionNumber, setSectionNumber] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
     const [forgotOpen, setForgotOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    // التسجيل بخطوتين: (1) رمز الدعوة (2) بيانات الطالب
+    const [step, setStep] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(mode === 'register' ? 'code' : 'form');
+    const [inviteCode, setInviteCode] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
+    const emailsMismatch = mode === 'register' && step === 'form' && confirmEmail.length > 0 && email.length > 0 && confirmEmail.trim().toLowerCase() !== email.trim().toLowerCase();
+    const checkInvite = async (e)=>{
+        e.preventDefault();
+        if (!inviteCode.trim()) {
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error('أدخل رمز الدعوة أولًا');
+            return;
+        }
+        setLoading(true);
+        try {
+            const res = await fetch('/api/auth/invite-check', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    code: inviteCode.trim()
+                })
+            });
+            const data = await res.json();
+            if (!res.ok) throw new Error(data.error || 'رمز الدعوة غير صحيح');
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].success('رمز الدعوة صحيح — أكمل بياناتك');
+            setStep('form');
+        } catch (err) {
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error(err instanceof Error ? err.message : 'تعذر التحقق من الرمز');
+        } finally{
+            setLoading(false);
+        }
+    };
     const submit = async (e)=>{
         e.preventDefault();
         setLoading(true);
@@ -1019,8 +1047,13 @@ function AuthView({ mode, redirect }) {
                 if (data.token) (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["setToken"])(data.token);
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].success(`أهلًا بك مجددًا، ${data.user.name}!`);
             } else {
-                if (school === COMPLEX && !/^\d{3}$/.test(sectionNumber)) {
+                if (!/^\d{3}$/.test(sectionNumber)) {
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error('اكتب رقم شعبتك بـ 3 أرقام — مثل 101 أو 204 أو 308');
+                    setLoading(false);
+                    return;
+                }
+                if (emailsMismatch) {
+                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error('البريد الإلكتروني غير متطابق');
                     setLoading(false);
                     return;
                 }
@@ -1032,10 +1065,11 @@ function AuthView({ mode, redirect }) {
                     body: JSON.stringify({
                         name,
                         email,
+                        confirmEmail: confirmEmail.trim(),
                         password,
                         grade,
-                        school: school || null,
-                        sectionNumber: school === COMPLEX ? sectionNumber : null
+                        sectionNumber,
+                        inviteCode: inviteCode.trim()
                     })
                 });
                 const data = await res.json();
@@ -1044,10 +1078,8 @@ function AuthView({ mode, redirect }) {
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].success(`مرحبًا بك في قدراتك، ${data.user.name}! 🎉`);
             }
             await refresh();
-            // الطلاب غير الموثقين يُحوّلون لصفحة تأكيد البريد أولًا
-            const me = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSession"].getState().user;
-            const needsVerify = me?.role === 'STUDENT' && me?.emailVerified === false;
-            (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["navigate"])(redirect || (needsVerify ? '/verify' : '/dashboard'));
+            // الطالب المسجل بدعوة يدخل المنصة مباشرة — لا يحتاج توثيق بريد
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$client$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["navigate"])(redirect || '/dashboard');
         } catch (err) {
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error(err instanceof Error ? err.message : 'حدث خطأ');
         } finally{
@@ -1068,34 +1100,34 @@ function AuthView({ mode, redirect }) {
                                 className: "h-7 w-7 text-primary-foreground"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                lineNumber: 83,
+                                lineNumber: 115,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/auth.tsx",
-                            lineNumber: 82,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "text-2xl font-extrabold",
-                            children: mode === 'login' ? 'تسجيل الدخول' : 'إنشاء حساب طالب'
+                            children: mode === 'login' ? 'تسجيل الدخول' : step === 'code' ? 'التسجيل برمز الدعوة' : 'بيانات الطالب'
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/auth.tsx",
-                            lineNumber: 85,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-sm text-muted-foreground mt-1.5",
-                            children: mode === 'login' ? 'أهلًا بعودتك — تابع رحلتك نحو درجتك' : 'التسجيل متاح للطلاب فقط — انضم مجانًا وابدأ تدريبك فورًا'
+                            children: mode === 'login' ? 'أهلًا بعودتك — تابع رحلتك نحو درجتك' : step === 'code' ? 'التسجيل متاح بحسب دعوة من إدارة المنصة — أدخل الرمز الذي حصلت عليه' : 'أكمل بياناتك لتنشئ حسابك وتدخل المنصة فورًا'
                         }, void 0, false, {
                             fileName: "[project]/src/components/platform/auth.tsx",
-                            lineNumber: 86,
+                            lineNumber: 118,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/platform/auth.tsx",
-                    lineNumber: 81,
+                    lineNumber: 113,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -1103,10 +1135,172 @@ function AuthView({ mode, redirect }) {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
                         className: "pt-6",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                            mode === 'register' && step === 'code' ? /* ============ الخطوة 1: رمز الدعوة ============ */ /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                                onSubmit: checkInvite,
+                                className: "space-y-4",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "space-y-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
+                                                htmlFor: "invite",
+                                                className: "text-sm font-bold",
+                                                children: [
+                                                    "رمز الدعوة ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-primary",
+                                                        children: "*"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                                        lineNumber: 134,
+                                                        columnNumber: 32
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 133,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "relative",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ticket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Ticket$3e$__["Ticket"], {
+                                                        className: "absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                                        lineNumber: 137,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
+                                                        id: "invite",
+                                                        dir: "ltr",
+                                                        value: inviteCode,
+                                                        onChange: (e)=>setInviteCode(e.target.value.toUpperCase()),
+                                                        placeholder: "مثال: QDR-482913",
+                                                        className: "pr-9 text-left tracking-widest font-bold",
+                                                        autoComplete: "off",
+                                                        required: true
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                                        lineNumber: 138,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 136,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-[11px] text-muted-foreground",
+                                                children: "احصل على رمز الدعوة من مالك المنصة (رائد الحربي) ثم أدخله هنا"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 149,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                        lineNumber: 132,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                        type: "submit",
+                                        className: "w-full h-11 text-base",
+                                        disabled: loading,
+                                        children: [
+                                            loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
+                                                className: "h-4 w-4 animate-spin"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 154,
+                                                columnNumber: 30
+                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ticket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Ticket$3e$__["Ticket"], {
+                                                className: "h-4 w-4"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 154,
+                                                columnNumber: 77
+                                            }, this),
+                                            "تحقق من الرمز"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                        lineNumber: 153,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "flex items-start gap-1.5 text-[11px] text-muted-foreground",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
+                                                className: "h-3.5 w-3.5 shrink-0 mt-0.5 text-primary"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 158,
+                                                columnNumber: 19
+                                            }, this),
+                                            "الرمز مخصص لطلاب المجمع — يُتحقق منه بجهة الخادم لحماية المنصة من الحسابات الوهمية"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                        lineNumber: 157,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/platform/auth.tsx",
+                                lineNumber: 131,
+                                columnNumber: 15
+                            }, this) : /* ============ الخطوة 2: بيانات الطالب (أو تسجيل الدخول) ============ */ /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                 onSubmit: submit,
                                 className: "space-y-4",
                                 children: [
+                                    mode === 'register' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center justify-between rounded-xl border border-emerald-200 bg-emerald-50 dark:border-emerald-900 dark:bg-emerald-950/40 px-3 py-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-[11px] font-bold text-emerald-700 dark:text-emerald-400 flex items-center gap-1.5",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ticket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Ticket$3e$__["Ticket"], {
+                                                        className: "h-3.5 w-3.5"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                                        lineNumber: 168,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    " رمز الدعوة مقبول ✓"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 167,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                type: "button",
+                                                onClick: ()=>setStep('code'),
+                                                className: "text-[11px] font-bold text-muted-foreground hover:text-primary flex items-center gap-1",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                                        className: "h-3 w-3"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                                        lineNumber: 175,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    " تغيير الرمز"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 170,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                        lineNumber: 166,
+                                        columnNumber: 19
+                                    }, this),
                                     mode === 'register' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "space-y-2",
                                         children: [
@@ -1115,8 +1309,8 @@ function AuthView({ mode, redirect }) {
                                                 children: "الاسم الكامل"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 98,
-                                                columnNumber: 19
+                                                lineNumber: 182,
+                                                columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "relative",
@@ -1125,8 +1319,8 @@ function AuthView({ mode, redirect }) {
                                                         className: "absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 100,
-                                                        columnNumber: 21
+                                                        lineNumber: 184,
+                                                        columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
                                                         id: "name",
@@ -1138,20 +1332,20 @@ function AuthView({ mode, redirect }) {
                                                         minLength: 2
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 101,
-                                                        columnNumber: 21
+                                                        lineNumber: 185,
+                                                        columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 99,
-                                                columnNumber: 19
+                                                lineNumber: 183,
+                                                columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 97,
-                                        columnNumber: 17
+                                        lineNumber: 181,
+                                        columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "space-y-2",
@@ -1161,8 +1355,8 @@ function AuthView({ mode, redirect }) {
                                                 children: "البريد الإلكتروني"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 115,
-                                                columnNumber: 17
+                                                lineNumber: 199,
+                                                columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "relative",
@@ -1171,8 +1365,8 @@ function AuthView({ mode, redirect }) {
                                                         className: "absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 117,
-                                                        columnNumber: 19
+                                                        lineNumber: 201,
+                                                        columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
                                                         id: "email",
@@ -1185,20 +1379,84 @@ function AuthView({ mode, redirect }) {
                                                         required: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 118,
-                                                        columnNumber: 19
+                                                        lineNumber: 202,
+                                                        columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 116,
-                                                columnNumber: 17
+                                                lineNumber: 200,
+                                                columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 114,
-                                        columnNumber: 15
+                                        lineNumber: 198,
+                                        columnNumber: 17
+                                    }, this),
+                                    mode === 'register' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "space-y-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
+                                                htmlFor: "confirmEmail",
+                                                children: "تأكيد البريد الإلكتروني"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 217,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "relative",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
+                                                        className: "absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                                        lineNumber: 219,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
+                                                        id: "confirmEmail",
+                                                        type: "email",
+                                                        dir: "ltr",
+                                                        value: confirmEmail,
+                                                        onChange: (e)=>setConfirmEmail(e.target.value),
+                                                        placeholder: "أعد كتابة البريد نفسه",
+                                                        className: "pr-9 text-left",
+                                                        required: true
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                                        lineNumber: 220,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 218,
+                                                columnNumber: 21
+                                            }, this),
+                                            emailsMismatch && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "flex items-center gap-1 text-[11px] font-bold text-destructive animate-in fade-in slide-in-from-top-1",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$alert$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertCircle$3e$__["AlertCircle"], {
+                                                        className: "h-3.5 w-3.5"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                                        lineNumber: 233,
+                                                        columnNumber: 25
+                                                    }, this),
+                                                    " البريد الإلكتروني غير متطابق"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 232,
+                                                columnNumber: 23
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                        lineNumber: 216,
+                                        columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "space-y-2",
@@ -1208,8 +1466,8 @@ function AuthView({ mode, redirect }) {
                                                 children: "كلمة المرور"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 132,
-                                                columnNumber: 17
+                                                lineNumber: 240,
+                                                columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "relative",
@@ -1218,8 +1476,8 @@ function AuthView({ mode, redirect }) {
                                                         className: "absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 134,
-                                                        columnNumber: 19
+                                                        lineNumber: 242,
+                                                        columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
                                                         id: "password",
@@ -1232,151 +1490,23 @@ function AuthView({ mode, redirect }) {
                                                         minLength: 8
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 135,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 133,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 131,
-                                        columnNumber: 15
-                                    }, this),
-                                    mode === 'register' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "space-y-2",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
-                                                children: "المرحلة الدراسية (اختياري)"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 150,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
-                                                value: grade,
-                                                onValueChange: setGrade,
-                                                dir: "rtl",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectTrigger"], {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectValue"], {
-                                                            placeholder: "اختر مرحلتك"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/platform/auth.tsx",
-                                                            lineNumber: 153,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 152,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
-                                                        children: GRADES.map((g)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
-                                                                value: g,
-                                                                children: g
-                                                            }, g, false, {
-                                                                fileName: "[project]/src/components/platform/auth.tsx",
-                                                                lineNumber: 157,
-                                                                columnNumber: 25
-                                                            }, this))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 155,
+                                                        lineNumber: 243,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 151,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "flex items-center gap-1 text-[11px] text-muted-foreground",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$school$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__School$3e$__["School"], {
-                                                        className: "h-3 w-3"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 164,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    " نساعدك بتخصيص التدريب حسب مرحلتك"
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 241,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 239,
                                         columnNumber: 17
                                     }, this),
                                     mode === 'register' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "space-y-2",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
-                                                children: "المجمع / المدرسة (اختياري)"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 171,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
-                                                value: school,
-                                                onValueChange: (v)=>{
-                                                    setSchool(v);
-                                                    if (v !== COMPLEX) setSectionNumber('');
-                                                },
-                                                dir: "rtl",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectTrigger"], {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectValue"], {
-                                                            placeholder: "اختر مجمعك أو مدرستك"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/platform/auth.tsx",
-                                                            lineNumber: 181,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 180,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
-                                                        children: SCHOOLS.map((s)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
-                                                                value: s,
-                                                                children: s
-                                                            }, s, false, {
-                                                                fileName: "[project]/src/components/platform/auth.tsx",
-                                                                lineNumber: 185,
-                                                                columnNumber: 25
-                                                            }, this))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 183,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 172,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 170,
-                                        columnNumber: 17
-                                    }, this),
-                                    mode === 'register' && school === COMPLEX && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "space-y-2 rounded-xl border border-primary/25 bg-primary/5 p-3 animate-in fade-in slide-in-from-top-1",
+                                        className: "space-y-2 rounded-xl border border-primary/25 bg-primary/5 p-3",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
                                                 htmlFor: "section",
@@ -1388,14 +1518,14 @@ function AuthView({ mode, redirect }) {
                                                         children: "*"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 197,
-                                                        columnNumber: 32
+                                                        lineNumber: 259,
+                                                        columnNumber: 34
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 196,
-                                                columnNumber: 19
+                                                lineNumber: 258,
+                                                columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
                                                 id: "section",
@@ -1407,22 +1537,84 @@ function AuthView({ mode, redirect }) {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 199,
-                                                columnNumber: 19
+                                                lineNumber: 261,
+                                                columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-[11px] text-muted-foreground",
-                                                children: "اكتب رقم شعبتك بالمجمع — 3 أرقام مثل 101 أو 204 أو 308"
+                                                children: "اكتب رقم شعبتك — 3 أرقام فقط مثل 101 أو 204 أو 308 (تُرفض الحروف والرموز)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 208,
-                                                columnNumber: 19
+                                                lineNumber: 270,
+                                                columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 195,
-                                        columnNumber: 17
+                                        lineNumber: 257,
+                                        columnNumber: 19
+                                    }, this),
+                                    mode === 'register' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "space-y-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
+                                                children: "المرحلة الدراسية (اختياري)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 278,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
+                                                value: grade,
+                                                onValueChange: setGrade,
+                                                dir: "rtl",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectTrigger"], {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectValue"], {
+                                                            placeholder: "اختر مرحلتك"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/platform/auth.tsx",
+                                                            lineNumber: 281,
+                                                            columnNumber: 25
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                                        lineNumber: 280,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
+                                                        children: GRADES.map((g)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
+                                                                value: g,
+                                                                children: g
+                                                            }, g, false, {
+                                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                                lineNumber: 285,
+                                                                columnNumber: 27
+                                                            }, this))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                                        lineNumber: 283,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 279,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-[11px] text-muted-foreground",
+                                                children: "نساعدك بتخصيص التدريب حسب مرحلتك"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/platform/auth.tsx",
+                                                lineNumber: 291,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/platform/auth.tsx",
+                                        lineNumber: 277,
+                                        columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                         type: "submit",
@@ -1433,21 +1625,21 @@ function AuthView({ mode, redirect }) {
                                                 className: "h-4 w-4 animate-spin"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 215,
-                                                columnNumber: 29
+                                                lineNumber: 296,
+                                                columnNumber: 31
                                             }, this),
                                             mode === 'login' ? 'دخول' : 'إنشاء حساب الطالب'
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 214,
-                                        columnNumber: 15
+                                        lineNumber: 295,
+                                        columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                lineNumber: 95,
-                                columnNumber: 13
+                                lineNumber: 164,
+                                columnNumber: 15
                             }, this),
                             mode === 'login' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "button",
@@ -1458,14 +1650,14 @@ function AuthView({ mode, redirect }) {
                                         className: "h-3.5 w-3.5"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 226,
+                                        lineNumber: 308,
                                         columnNumber: 17
                                     }, this),
                                     " نسيت كلمة المرور؟"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                lineNumber: 221,
+                                lineNumber: 303,
                                 columnNumber: 15
                             }, this),
                             mode === 'register' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1475,25 +1667,25 @@ function AuthView({ mode, redirect }) {
                                         className: "h-3.5 w-3.5 shrink-0 mt-0.5 text-primary"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 232,
+                                        lineNumber: 314,
                                         columnNumber: 17
                                     }, this),
                                     "يُحفظ حسابك بأمان في قاعدة بيانات المنصة، وحسابات المعلمين يُنشئها مالك المنصة حصريًا."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                lineNumber: 231,
+                                lineNumber: 313,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/auth.tsx",
-                        lineNumber: 94,
+                        lineNumber: 128,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/auth.tsx",
-                    lineNumber: 93,
+                    lineNumber: 127,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Dialog"], {
@@ -1510,19 +1702,19 @@ function AuthView({ mode, redirect }) {
                                             className: "h-5 w-5 text-primary"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/platform/auth.tsx",
-                                            lineNumber: 244,
+                                            lineNumber: 326,
                                             columnNumber: 17
                                         }, this),
                                         " استعادة كلمة المرور"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/platform/auth.tsx",
-                                    lineNumber: 243,
+                                    lineNumber: 325,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                lineNumber: 242,
+                                lineNumber: 324,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1538,14 +1730,14 @@ function AuthView({ mode, redirect }) {
                                                         className: "h-4 w-4 text-primary"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 250,
+                                                        lineNumber: 332,
                                                         columnNumber: 19
                                                     }, this),
                                                     " للطلاب"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 249,
+                                                lineNumber: 331,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1553,13 +1745,13 @@ function AuthView({ mode, redirect }) {
                                                 children: "تواصل مع مالك المنصة (رائد الحربي) ليُعيد تعيين كلمة مرورك من لوحة «تتبع الحسابات» — تُنشأ لك كلمة جديدة وتدخل بها فورًا."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 252,
+                                                lineNumber: 334,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 248,
+                                        lineNumber: 330,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1572,14 +1764,14 @@ function AuthView({ mode, redirect }) {
                                                         className: "h-4 w-4 text-amber-500"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                                        lineNumber: 259,
+                                                        lineNumber: 341,
                                                         columnNumber: 19
                                                     }, this),
                                                     " لمالك المنصة"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 258,
+                                                lineNumber: 340,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1587,7 +1779,7 @@ function AuthView({ mode, redirect }) {
                                                 children: "إن نسيت كلمة مرورك، شغّل على الخادم سكربت الطوارئ:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 261,
+                                                lineNumber: 343,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
@@ -1596,13 +1788,13 @@ function AuthView({ mode, redirect }) {
                                                 children: "bun run scripts/reset-password.ts your@email.com NewPass@123"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 264,
+                                                lineNumber: 346,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 257,
+                                        lineNumber: 339,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1612,31 +1804,31 @@ function AuthView({ mode, redirect }) {
                                                 className: "h-3.5 w-3.5 shrink-0 mt-0.5"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                                lineNumber: 269,
+                                                lineNumber: 351,
                                                 columnNumber: 17
                                             }, this),
                                             "لا يرسل النظام كلمات المرور بالبريد؛ تُخزّن مشفّرة (bcrypt) ولا يمكن استرجاعها — تُستبدل فقط."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/platform/auth.tsx",
-                                        lineNumber: 268,
+                                        lineNumber: 350,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                lineNumber: 247,
+                                lineNumber: 329,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/platform/auth.tsx",
-                        lineNumber: 241,
+                        lineNumber: 323,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/auth.tsx",
-                    lineNumber: 240,
+                    lineNumber: 322,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1651,7 +1843,7 @@ function AuthView({ mode, redirect }) {
                                 children: "أنشئ حساب طالب مجاني"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                lineNumber: 280,
+                                lineNumber: 362,
                                 columnNumber: 15
                             }, this)
                         ]
@@ -1665,25 +1857,25 @@ function AuthView({ mode, redirect }) {
                                 children: "سجّل الدخول"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/platform/auth.tsx",
-                                lineNumber: 287,
+                                lineNumber: 369,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true)
                 }, void 0, false, {
                     fileName: "[project]/src/components/platform/auth.tsx",
-                    lineNumber: 276,
+                    lineNumber: 358,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/platform/auth.tsx",
-            lineNumber: 80,
+            lineNumber: 112,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/platform/auth.tsx",
-        lineNumber: 79,
+        lineNumber: 111,
         columnNumber: 5
     }, this);
 }
